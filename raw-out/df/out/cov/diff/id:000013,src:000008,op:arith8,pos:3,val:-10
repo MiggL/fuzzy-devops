@@ -1,0 +1,5 @@
+diff id:000012,src:000008,op:arith8,pos:0,val:-30,+cov -> id:000013,src:000008,op:arith8,pos:3,val:-10
+Src file: /root/coreutils/src/df.c
+  New 'line' coverage: 1546
+  New 'line' coverage: 1551
+  New 'line' coverage: 1552

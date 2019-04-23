@@ -1,0 +1,3 @@
+diff id:000106,src:000002+000077,op:splice,rep:4 -> id:000107,src:000002+000077,op:splice,rep:8
+Src file: /root/coreutils/src/df.c
+  New 'line' coverage: 1607

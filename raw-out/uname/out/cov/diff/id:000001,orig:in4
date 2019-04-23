@@ -1,0 +1,7 @@
+diff id:000000,orig:in3 -> id:000001,orig:in4
+Src file: /root/coreutils/src/uname.c
+  New 'line' coverage: 230
+  New 'line' coverage: 231
+  New 'line' coverage: 305
+  New 'line' coverage: 343
+  New 'line' coverage: 344

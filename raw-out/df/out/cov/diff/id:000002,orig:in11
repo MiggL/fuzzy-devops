@@ -1,0 +1,36 @@
+diff id:000001,orig:in10 -> id:000002,orig:in11
+Src file: /root/coreutils/src/df.c
+  New 'function' coverage: get_entry()
+  New 'function' coverage: get_point()
+  New 'line' coverage: 1257
+  New 'line' coverage: 1261
+  New 'line' coverage: 1266
+  New 'line' coverage: 1267
+  New 'line' coverage: 1269
+  New 'line' coverage: 1270
+  New 'line' coverage: 1272
+  New 'line' coverage: 1274
+  New 'line' coverage: 1275
+  New 'line' coverage: 1277
+  New 'line' coverage: 1278
+  New 'line' coverage: 1279
+  New 'line' coverage: 1280
+  New 'line' coverage: 1283
+  New 'line' coverage: 1284
+  New 'line' coverage: 1289
+  New 'line' coverage: 1290
+  New 'line' coverage: 1291
+  New 'line' coverage: 1292
+  New 'line' coverage: 1295
+  New 'line' coverage: 1331
+  New 'line' coverage: 1332
+  New 'line' coverage: 1333
+  New 'line' coverage: 1349
+  New 'line' coverage: 1355
+  New 'line' coverage: 1357
+  New 'line' coverage: 1361
+  New 'line' coverage: 1539
+  New 'line' coverage: 1540
+  New 'line' coverage: 1612
+  New 'line' coverage: 1679
+  New 'line' coverage: 1725

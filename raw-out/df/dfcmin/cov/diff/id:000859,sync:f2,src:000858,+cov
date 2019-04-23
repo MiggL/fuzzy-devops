@@ -1,0 +1,35 @@
+diff id:000859,src:000855,op:havoc,rep:2,+cov -> id:000859,sync:f2,src:000858,+cov
+Src file: /root/coreutils/src/df.c
+  New 'function' coverage: decode_output_arg()
+  New 'line' coverage: 1116
+  New 'line' coverage: 1117
+  New 'line' coverage: 1582
+  New 'line' coverage: 1587
+  New 'line' coverage: 1592
+  New 'line' coverage: 1597
+  New 'line' coverage: 1598
+  New 'line' coverage: 364
+  New 'line' coverage: 366
+  New 'line' coverage: 367
+  New 'line' coverage: 371
+  New 'line' coverage: 374
+  New 'line' coverage: 375
+  New 'line' coverage: 378
+  New 'line' coverage: 379
+  New 'line' coverage: 381
+  New 'line' coverage: 387
+  New 'line' coverage: 393
+  New 'line' coverage: 398
+  New 'line' coverage: 413
+  New 'line' coverage: 414
+  New 'line' coverage: 417
+  New 'line' coverage: 418
+  New 'line' coverage: 421
+  New 'line' coverage: 422
+  New 'line' coverage: 427
+  New 'line' coverage: 429
+  New 'line' coverage: 431
+  New 'line' coverage: 432
+  New 'line' coverage: 486
+  New 'line' coverage: 489
+  New 'line' coverage: 515

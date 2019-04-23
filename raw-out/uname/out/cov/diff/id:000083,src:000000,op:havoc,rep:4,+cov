@@ -1,0 +1,3 @@
+diff id:000082,src:000000,op:havoc,rep:32,+cov -> id:000083,src:000000,op:havoc,rep:4,+cov
+Src file: /root/coreutils/src/uname.c
+  New 'line' coverage: 369

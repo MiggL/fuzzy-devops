@@ -1,0 +1,12 @@
+diff id:000021,src:000002,op:havoc,rep:32 -> id:000022,src:000002,op:havoc,rep:8,+cov
+Src file: /root/coreutils/src/pwd.c
+  New 'function' coverage: logical_getcwd()
+  New 'line' coverage: 302
+  New 'line' coverage: 306
+  New 'line' coverage: 310
+  New 'line' coverage: 313
+  New 'line' coverage: 322
+  New 'line' coverage: 374
+  New 'line' coverage: 375
+  New 'line' coverage: 377
+  New 'line' coverage: 378

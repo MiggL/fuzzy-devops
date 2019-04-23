@@ -1,0 +1,18 @@
+diff id:000196,src:000138+000174,op:splice,rep:8 -> id:000227,sync:f3,src:000203
+Src file: /root/coreutils/src/df.c
+  New 'function' coverage: usage()
+  New 'line' coverage: 1406
+  New 'line' coverage: 1408
+  New 'line' coverage: 1409
+  New 'line' coverage: 1464
+  New 'line' coverage: 1505
+  New 'line' coverage: 1535
+  New 'line' coverage: 1536
+  New 'line' coverage: 1537
+  New 'line' coverage: 1610
+  New 'line' coverage: 1612
+Src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_try_help()
+  New 'line' coverage: 654
+  New 'line' coverage: 656
+  New 'line' coverage: 657

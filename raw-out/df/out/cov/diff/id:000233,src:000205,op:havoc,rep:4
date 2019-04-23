@@ -1,0 +1,3 @@
+diff id:000232,src:000205,op:havoc,rep:4 -> id:000233,src:000205,op:havoc,rep:4
+Src file: /root/coreutils/src/df.c
+  New 'line' coverage: 1281
