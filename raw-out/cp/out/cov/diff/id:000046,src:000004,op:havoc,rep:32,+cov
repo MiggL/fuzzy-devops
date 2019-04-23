@@ -1,0 +1,4 @@
+diff id:000045,src:000004,op:havoc,rep:8,+cov -> id:000046,src:000004,op:havoc,rep:32,+cov
+Src file: /root/coreutils/src/cp.c
+  New 'line' coverage: 1019
+  New 'line' coverage: 1020

@@ -1,0 +1,6 @@
+diff id:000071,src:000004,op:havoc,rep:64 -> id:000072,src:000004,op:havoc,rep:32
+Src file: /root/coreutils/src/copy.c
+  New 'line' coverage: 1867
+  New 'line' coverage: 1869
+  New 'line' coverage: 1871
+  New 'line' coverage: 1872

@@ -1,0 +1,7 @@
+diff id:000419,src:000216,op:havoc,rep:4 -> id:000420,src:000358,op:havoc,rep:2
+Src file: /root/coreutils/src/cat.c
+  New 'line' coverage: 322
+  New 'line' coverage: 346
+  New 'line' coverage: 347
+  New 'line' coverage: 348
+  New 'line' coverage: 349

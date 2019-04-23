@@ -1,0 +1,44 @@
+diff id:000000,orig:in -> id:000001,orig:in2
+Src file: /root/coreutils/src/cp.c
+  New 'line' coverage: 1129
+  New 'line' coverage: 159
+  New 'line' coverage: 165
+  New 'line' coverage: 169
+  New 'line' coverage: 171
+  New 'line' coverage: 180
+  New 'line' coverage: 189
+  New 'line' coverage: 193
+  New 'line' coverage: 198
+  New 'line' coverage: 206
+  New 'line' coverage: 210
+  New 'line' coverage: 216
+  New 'line' coverage: 221
+  New 'line' coverage: 227
+  New 'line' coverage: 234
+  New 'line' coverage: 240
+  New 'line' coverage: 241
+  New 'line' coverage: 242
+  New 'line' coverage: 254
+  New 'line' coverage: 261
+  New 'line' coverage: 267
+  New 'line' coverage: 273
+Src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_ancillary_info()
+  New 'function' coverage: emit_mandatory_arg_note()
+  New 'line' coverage: 585
+  New 'line' coverage: 587
+  New 'line' coverage: 590
+  New 'line' coverage: 612
+  New 'line' coverage: 614
+  New 'line' coverage: 624
+  New 'line' coverage: 625
+  New 'line' coverage: 627
+  New 'line' coverage: 628
+  New 'line' coverage: 630
+  New 'line' coverage: 633
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 644
+  New 'line' coverage: 647
+  New 'line' coverage: 649
+  New 'line' coverage: 651
