@@ -1,0 +1,3 @@
+afl_cov_pid     : 983
+afl_cov_version : 0.6.2
+command_line    : ./afl-cov/afl-cov -d out --live --coverage-cmd cat AFL_FILE | LD_LIBRARY_PATH=./lib/.libs ./coreutils/src/cat -a -b -c --code-dir coreutils/src --enable-branch-coverage

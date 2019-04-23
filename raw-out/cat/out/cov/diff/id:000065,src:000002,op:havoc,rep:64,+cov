@@ -1,0 +1,14 @@
+diff id:000064,src:000002,op:havoc,rep:128 -> id:000065,src:000002,op:havoc,rep:64,+cov
+Src file: /root/coreutils/src/cat.c
+  New 'function' coverage: usage()
+  New 'line' coverage: 125
+  New 'line' coverage: 581
+  New 'line' coverage: 633
+  New 'line' coverage: 83
+  New 'line' coverage: 85
+  New 'line' coverage: 86
+Src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_try_help()
+  New 'line' coverage: 654
+  New 'line' coverage: 656
+  New 'line' coverage: 657
