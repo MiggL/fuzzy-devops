@@ -1,0 +1,13 @@
+diff id:000024,src:000004,op:int16,pos:6,val:be:+127,+cov -> id:000025,src:000004,op:int16,pos:7,val:+512,+cov
+Src file: /root/coreutils/src/cp.c
+  New 'line' coverage: 970
+  New 'line' coverage: 971
+  New 'line' coverage: 972
+  New 'line' coverage: 973
+  New 'line' coverage: 974
+  New 'line' coverage: 975
+  New 'line' coverage: 976
+  New 'line' coverage: 978
+  New 'line' coverage: 979
+  New 'line' coverage: 980
+  New 'line' coverage: 981

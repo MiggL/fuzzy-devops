@@ -1,0 +1,16 @@
+diff id:000000,orig:in -> id:000001,orig:in2
+Src file: /root/coreutils/src/printf.c
+  New 'function' coverage: print_direc()
+  New 'line' coverage: 332
+  New 'line' coverage: 366
+  New 'line' coverage: 367
+  New 'line' coverage: 368
+  New 'line' coverage: 369
+  New 'line' coverage: 370
+  New 'line' coverage: 373
+  New 'line' coverage: 447
+  New 'line' coverage: 448
+  New 'line' coverage: 471
+  New 'line' coverage: 472
+  New 'line' coverage: 633
+  New 'line' coverage: 637

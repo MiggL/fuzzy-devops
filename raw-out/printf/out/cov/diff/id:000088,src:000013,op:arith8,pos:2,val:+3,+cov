@@ -1,0 +1,8 @@
+diff id:000087,src:000002,op:havoc,rep:32 -> id:000088,src:000013,op:arith8,pos:2,val:+3,+cov
+Src file: /root/coreutils/src/printf.c
+  New 'function' coverage: vstrtoumax()
+  New 'line' coverage: 191
+  New 'line' coverage: 401
+  New 'line' coverage: 402
+  New 'line' coverage: 411
+  New 'line' coverage: 412

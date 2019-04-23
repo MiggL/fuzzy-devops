@@ -1,0 +1,28 @@
+diff id:000591,sync:f3,src:000584,+cov -> id:000594,src:000001,op:havoc,rep:16,+cov
+Src file: /root/coreutils/src/df.c
+  New 'function' coverage: add_to_grand_total.isra.0()
+  New 'function' coverage: add_uint_with_neg_flag()
+  New 'line' coverage: 1001
+  New 'line' coverage: 1603
+  New 'line' coverage: 1604
+  New 'line' coverage: 1735
+  New 'line' coverage: 1736
+  New 'line' coverage: 783
+  New 'line' coverage: 786
+  New 'line' coverage: 788
+  New 'line' coverage: 789
+  New 'line' coverage: 862
+  New 'line' coverage: 864
+  New 'line' coverage: 865
+  New 'line' coverage: 866
+  New 'line' coverage: 867
+  New 'line' coverage: 869
+  New 'line' coverage: 870
+  New 'line' coverage: 871
+  New 'line' coverage: 872
+  New 'line' coverage: 873
+  New 'line' coverage: 874
+  New 'line' coverage: 876
+  New 'line' coverage: 877
+  New 'line' coverage: 878
+  New 'line' coverage: 925

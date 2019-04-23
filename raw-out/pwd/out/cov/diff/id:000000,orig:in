@@ -1,0 +1,46 @@
+diff (init) -> id:000000,orig:in
+New src file: /root/coreutils/src/pwd.c
+  New 'function' coverage: main()
+  New 'function' coverage: usage()
+  New 'line' coverage: 329
+  New 'line' coverage: 331
+  New 'line' coverage: 336
+  New 'line' coverage: 339
+  New 'line' coverage: 340
+  New 'line' coverage: 341
+  New 'line' coverage: 342
+  New 'line' coverage: 344
+  New 'line' coverage: 348
+  New 'line' coverage: 349
+  New 'line' coverage: 351
+  New 'line' coverage: 365
+  New 'line' coverage: 369
+  New 'line' coverage: 370
+  New 'line' coverage: 372
+  New 'line' coverage: 382
+  New 'line' coverage: 383
+  New 'line' coverage: 385
+  New 'line' coverage: 386
+  New 'line' coverage: 52
+  New 'line' coverage: 54
+  New 'line' coverage: 55
+  New 'line' coverage: 75
+New src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_try_help()
+  New 'line' coverage: 654
+  New 'line' coverage: 656
+  New 'line' coverage: 657
+New src file: /root/afl/experimental/argv_fuzzing/argv-fuzz-inl.h
+  New 'function' coverage: afl_init_argv()
+  New 'line' coverage: 50
+  New 'line' coverage: 55
+  New 'line' coverage: 56
+  New 'line' coverage: 58
+  New 'line' coverage: 60
+  New 'line' coverage: 62
+  New 'line' coverage: 63
+  New 'line' coverage: 64
+  New 'line' coverage: 66
+  New 'line' coverage: 67
+  New 'line' coverage: 71
+  New 'line' coverage: 73

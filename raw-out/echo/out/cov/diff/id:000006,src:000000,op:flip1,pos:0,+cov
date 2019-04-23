@@ -1,0 +1,8 @@
+diff id:000005,orig:in6 -> id:000006,src:000000,op:flip1,pos:0,+cov
+Src file: /root/coreutils/src/echo.c
+  New 'line' coverage: 173
+  New 'line' coverage: 174
+  New 'line' coverage: 185
+  New 'line' coverage: 186
+  New 'line' coverage: 189
+  New 'line' coverage: 190

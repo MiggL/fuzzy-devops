@@ -1,0 +1,3 @@
+diff id:000722,sync:f2,src:000719,+cov -> id:000723,sync:f2,src:000683
+Src file: /root/coreutils/src/df.c
+  New 'line' coverage: 454

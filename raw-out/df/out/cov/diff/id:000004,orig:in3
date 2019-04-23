@@ -1,0 +1,4 @@
+diff id:000003,orig:in2 -> id:000004,orig:in3
+Src file: /root/coreutils/src/df.c
+  New 'line' coverage: 1508
+  New 'line' coverage: 1509

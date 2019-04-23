@@ -1,0 +1,13 @@
+diff id:000019,src:000002,op:havoc,rep:4 -> id:000020,src:000002,op:havoc,rep:16,+cov
+Src file: /root/coreutils/src/pwd.c
+  New 'line' coverage: 357
+  New 'line' coverage: 358
+Src file: /root/coreutils/src/df.c
+  New 'line' coverage: 464
+  New 'line' coverage: 465
+  New 'line' coverage: 467
+  New 'line' coverage: 468
+  New 'line' coverage: 469
+  New 'line' coverage: 470
+  New 'line' coverage: 471
+  New 'line' coverage: 472

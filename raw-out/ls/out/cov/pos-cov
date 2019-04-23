@@ -1,0 +1,120 @@
+# All functions / lines in this file were executed by at
+# least one AFL test case. See the cov/id-delta-cov file
+# for more information.
+File: /root/coreutils/src/cp.c
+File: /root/coreutils/src/mkdir.c
+File: /root/coreutils/src/remove.c
+File: /root/coreutils/src/ls.c
+    function: abmon_init()
+    function: align_nstrftime()
+    function: attach()
+    function: basename_is_dot_or_dotdot()
+    function: calculate_columns()
+    function: clear_files()
+    function: cmp_extension.isra.8()
+    function: decode_switches()
+    function: dev_ino_compare()
+    function: dev_ino_hash()
+    function: dev_ino_pop()
+    function: dev_ino_push()
+    function: dired_dump_obstack()
+    function: extract_dirs_from_files()
+    function: file_failure()
+    function: file_has_acl_cache()
+    function: file_ignored()
+    function: format_group()
+    function: format_group_width()
+    function: format_user()
+    function: format_user_or_group()
+    function: format_user_or_group_width()
+    function: format_user_width()
+    function: free_pending_ent()
+    function: get_link_name()
+    function: get_type_indicator()
+    function: getenv_quoting_style()
+    function: getfilecon_cache()
+    function: gobble_file()
+    function: indent()
+    function: init_column_info()
+    function: length_of_file_name_and_frills()
+    function: main()
+    function: make_link_name()
+    function: print_current_files()
+    function: print_dir()
+    function: print_file_name_and_frills()
+    function: print_horizontal()
+    function: print_long_format()
+    function: print_many_per_line()
+    function: print_name_with_quoting()
+    function: print_type_indicator()
+    function: print_with_separator()
+    function: process_signals()
+    function: queue_directory()
+    function: quote_name()
+    function: rev_xstrcoll_atime()
+    function: rev_xstrcoll_ctime()
+    function: rev_xstrcoll_df_atime()
+    function: rev_xstrcoll_df_ctime()
+    function: rev_xstrcoll_df_extension()
+    function: rev_xstrcoll_df_mtime()
+    function: rev_xstrcoll_df_name()
+    function: rev_xstrcoll_df_size()
+    function: rev_xstrcoll_df_version()
+    function: rev_xstrcoll_extension()
+    function: rev_xstrcoll_mtime()
+    function: rev_xstrcoll_name()
+    function: rev_xstrcoll_size()
+    function: rev_xstrcoll_version()
+    function: set_line_length()
+    function: set_normal_color()
+    function: sort_files()
+    function: usage()
+    function: visit_dir()
+    function: xstrcoll()
+    function: xstrcoll_atime()
+    function: xstrcoll_ctime()
+    function: xstrcoll_df_atime()
+    function: xstrcoll_df_ctime()
+    function: xstrcoll_df_extension()
+    function: xstrcoll_df_mtime()
+    function: xstrcoll_df_name()
+    function: xstrcoll_df_size()
+    function: xstrcoll_df_version()
+    function: xstrcoll_extension()
+    function: xstrcoll_mtime()
+    function: xstrcoll_name()
+    function: xstrcoll_size()
+    function: xstrcoll_version()
+File: /root/coreutils/src/ioblksize.h
+File: /root/coreutils/src/pwd.c
+File: /root/coreutils/src/copy.c
+File: /root/coreutils/src/extent-scan.h
+File: /root/coreutils/src/extent-scan.c
+File: /root/coreutils/src/true.c
+    function: main()
+File: /root/coreutils/lib/xalloc.h
+File: /root/coreutils/src/date.c
+File: /root/coreutils/src/selinux.h
+File: /root/coreutils/src/prog-fprintf.c
+File: /root/coreutils/src/cat.c
+File: /root/coreutils/src/find-mount-point.c
+File: /root/coreutils/src/dd.c
+File: /root/coreutils/lib/stat-time.h
+File: /root/coreutils/src/uname.c
+File: /root/coreutils/src/df.c
+File: /root/coreutils/src/mv.c
+File: /root/coreutils/src/mktemp.c
+File: /root/coreutils/lib/timespec.h
+File: /root/coreutils/src/echo.c
+File: /root/coreutils/src/printf.c
+File: /root/coreutils/src/system.h
+    function: emit_try_help()
+File: /root/coreutils/lib/openat.h
+File: /root/coreutils/src/cp-hash.c
+File: /root/coreutils/src/sleep.c
+File: /root/coreutils/src/ln.c
+File: /root/coreutils/src/touch.c
+File: /root/coreutils/src/relpath.c
+File: /root/coreutils/lib/selinux/selinux.h
+File: /root/afl/experimental/argv_fuzzing/argv-fuzz-inl.h
+    function: afl_init_argv()

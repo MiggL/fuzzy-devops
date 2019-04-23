@@ -1,0 +1,60 @@
+# All functions / lines in this file were executed by at
+# least one AFL test case. See the cov/id-delta-cov file
+# for more information.
+File: /root/coreutils/src/cp.c
+File: /root/coreutils/src/mkdir.c
+File: /root/coreutils/src/remove.c
+File: /root/coreutils/src/ls.c
+File: /root/coreutils/src/ioblksize.h
+File: /root/coreutils/src/pwd.c
+File: /root/coreutils/src/copy.c
+File: /root/coreutils/src/extent-scan.h
+File: /root/coreutils/src/extent-scan.c
+File: /root/coreutils/src/true.c
+File: /root/coreutils/lib/xalloc.h
+File: /root/coreutils/src/date.c
+File: /root/coreutils/src/selinux.h
+File: /root/coreutils/src/prog-fprintf.c
+File: /root/coreutils/src/cat.c
+File: /root/coreutils/src/find-mount-point.c
+File: /root/coreutils/src/dd.c
+File: /root/coreutils/lib/stat-time.h
+File: /root/coreutils/src/uname.c
+File: /root/coreutils/src/df.c
+    function: add_to_grand_total.isra.0()
+    function: add_uint_with_neg_flag()
+    function: alloc_field()
+    function: alloc_table_row()
+    function: decode_output_arg()
+    function: df_readable()
+    function: excluded_fstype()
+    function: filter_mount_list()
+    function: get_all_entries()
+    function: get_dev()
+    function: get_entry()
+    function: get_field_list()
+    function: get_field_values()
+    function: get_header()
+    function: get_point()
+    function: has_uuid_suffix()
+    function: hide_problematic_chars()
+    function: main()
+    function: print_table()
+    function: selected_fstype()
+    function: usage()
+File: /root/coreutils/src/mv.c
+File: /root/coreutils/src/mktemp.c
+File: /root/coreutils/lib/timespec.h
+File: /root/coreutils/src/echo.c
+File: /root/coreutils/src/printf.c
+File: /root/coreutils/src/system.h
+    function: emit_try_help()
+File: /root/coreutils/lib/openat.h
+File: /root/coreutils/src/cp-hash.c
+File: /root/coreutils/src/sleep.c
+File: /root/coreutils/src/ln.c
+File: /root/coreutils/src/touch.c
+File: /root/coreutils/src/relpath.c
+File: /root/coreutils/lib/selinux/selinux.h
+File: /root/afl/experimental/argv_fuzzing/argv-fuzz-inl.h
+    function: afl_init_argv()

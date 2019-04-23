@@ -1,0 +1,14 @@
+diff id:000008,src:000000,op:arith8,pos:0,val:-30,+cov -> id:000009,src:000000,op:arith8,pos:4,val:-10
+Src file: /root/coreutils/src/ls.c
+  New 'line' coverage: 1784
+  New 'line' coverage: 2618
+  New 'line' coverage: 2620
+  New 'line' coverage: 2621
+  New 'line' coverage: 2622
+  New 'line' coverage: 2623
+  New 'line' coverage: 2625
+  New 'line' coverage: 2626
+  New 'line' coverage: 2738
+  New 'line' coverage: 2739
+  New 'line' coverage: 2741
+  New 'line' coverage: 2742

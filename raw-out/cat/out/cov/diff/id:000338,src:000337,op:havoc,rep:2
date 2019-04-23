@@ -1,0 +1,33 @@
+diff id:000337,src:000332,op:havoc,rep:4 -> id:000338,src:000337,op:havoc,rep:2
+Src file: /root/coreutils/src/cat.c
+  New 'line' coverage: 108
+  New 'line' coverage: 114
+  New 'line' coverage: 115
+  New 'line' coverage: 116
+  New 'line' coverage: 123
+  New 'line' coverage: 628
+  New 'line' coverage: 630
+  New 'line' coverage: 89
+  New 'line' coverage: 93
+  New 'line' coverage: 97
+  New 'line' coverage: 99
+Src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_ancillary_info()
+  New 'function' coverage: emit_stdin_note()
+  New 'line' coverage: 578
+  New 'line' coverage: 580
+  New 'line' coverage: 583
+  New 'line' coverage: 612
+  New 'line' coverage: 614
+  New 'line' coverage: 624
+  New 'line' coverage: 625
+  New 'line' coverage: 627
+  New 'line' coverage: 628
+  New 'line' coverage: 630
+  New 'line' coverage: 633
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 644
+  New 'line' coverage: 647
+  New 'line' coverage: 649
+  New 'line' coverage: 651

@@ -1,0 +1,27 @@
+diff id:000038,src:000002,op:havoc,rep:128,+cov -> id:000039,src:000002,op:havoc,rep:16
+Src file: /root/coreutils/src/pwd.c
+  New 'line' coverage: 360
+  New 'line' coverage: 58
+  New 'line' coverage: 59
+  New 'line' coverage: 63
+  New 'line' coverage: 67
+  New 'line' coverage: 68
+  New 'line' coverage: 69
+  New 'line' coverage: 72
+  New 'line' coverage: 73
+Src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_ancillary_info()
+  New 'line' coverage: 612
+  New 'line' coverage: 614
+  New 'line' coverage: 624
+  New 'line' coverage: 625
+  New 'line' coverage: 627
+  New 'line' coverage: 628
+  New 'line' coverage: 630
+  New 'line' coverage: 633
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 644
+  New 'line' coverage: 647
+  New 'line' coverage: 649
+  New 'line' coverage: 651

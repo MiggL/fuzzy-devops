@@ -1,0 +1,7 @@
+diff id:000007,src:000000,op:flip1,pos:1,+cov -> id:000008,src:000000,op:arith8,pos:0,val:-30,+cov
+Src file: /root/coreutils/src/ls.c
+  New 'function' coverage: set_line_length()
+  New 'line' coverage: 1532
+  New 'line' coverage: 1538
+  New 'line' coverage: 1769
+  New 'line' coverage: 1770

@@ -1,0 +1,4 @@
+diff id:000083,src:000002,op:havoc,rep:64 -> id:000084,src:000002,op:havoc,rep:128
+Src file: /root/coreutils/src/printf.c
+  New 'line' coverage: 388
+  New 'line' coverage: 389

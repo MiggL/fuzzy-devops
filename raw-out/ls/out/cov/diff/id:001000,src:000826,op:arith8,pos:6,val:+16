@@ -1,0 +1,4 @@
+diff id:000999,src:000824,op:flip2,pos:7 -> id:001000,src:000826,op:arith8,pos:6,val:+16
+Src file: /root/coreutils/src/ls.c
+  New 'function' coverage: rev_xstrcoll_df_mtime()
+  New 'function' coverage: xstrcoll_df_mtime()

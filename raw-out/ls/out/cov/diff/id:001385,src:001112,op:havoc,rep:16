@@ -1,0 +1,8 @@
+diff id:001384,src:001106,op:arith8,pos:37,val:-20,+cov -> id:001385,src:001112,op:havoc,rep:16
+Src file: /root/coreutils/src/ls.c
+  New 'line' coverage: 1889
+  New 'line' coverage: 1890
+  New 'line' coverage: 1891
+  New 'line' coverage: 2084
+  New 'line' coverage: 2086
+  New 'line' coverage: 2110

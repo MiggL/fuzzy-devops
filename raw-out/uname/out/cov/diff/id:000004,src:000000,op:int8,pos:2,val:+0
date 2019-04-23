@@ -1,0 +1,4 @@
+diff id:000003,src:000000,op:int8,pos:1,val:+0,+cov -> id:000004,src:000000,op:int8,pos:2,val:+0
+Src file: /root/coreutils/src/uname.c
+  New 'line' coverage: 234
+  New 'line' coverage: 235

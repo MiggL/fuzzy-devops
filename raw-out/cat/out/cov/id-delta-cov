@@ -1,0 +1,10 @@
+# id:NNNNNN*_file, cycle, src_file, coverage_type, fcn/line
+id:000000,orig:in, 0, /root/coreutils/src/cat.c, function, main()
+id:000000,orig:in, 0, /root/coreutils/src/cat.c, function, simple_cat()
+id:000000,orig:in, 0, /root/afl/experimental/argv_fuzzing/argv-fuzz-inl.h, function, afl_init_argv()
+id:000065,src:000002,op:havoc,rep:64,+cov, 0, /root/coreutils/src/cat.c, function, usage()
+id:000065,src:000002,op:havoc,rep:64,+cov, 0, /root/coreutils/src/system.h, function, emit_try_help()
+id:000165,src:000099,op:havoc,rep:128, 0, /root/coreutils/src/cat.c, function, cat()
+id:000165,src:000099,op:havoc,rep:128, 0, /root/coreutils/src/cat.c, function, write_pending()
+id:000338,src:000337,op:havoc,rep:2, 0, /root/coreutils/src/system.h, function, emit_ancillary_info()
+id:000338,src:000337,op:havoc,rep:2, 0, /root/coreutils/src/system.h, function, emit_stdin_note()

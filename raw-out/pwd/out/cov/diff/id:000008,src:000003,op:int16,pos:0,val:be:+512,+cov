@@ -1,0 +1,4 @@
+diff id:000007,src:000003,op:int8,pos:1,val:+0,+cov -> id:000008,src:000003,op:int16,pos:0,val:be:+512,+cov
+Src file: /root/coreutils/src/pwd.c
+  New 'line' coverage: 357
+  New 'line' coverage: 358

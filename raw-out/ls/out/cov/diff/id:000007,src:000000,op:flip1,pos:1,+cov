@@ -1,0 +1,12 @@
+diff id:000006,src:000000,op:flip1,pos:0,+cov -> id:000007,src:000000,op:flip1,pos:1,+cov
+Src file: /root/coreutils/src/ls.c
+  New 'line' coverage: 1725
+  New 'line' coverage: 1726
+Src file: /root/coreutils/src/true.c
+  New 'line' coverage: 65
+  New 'line' coverage: 66
+  New 'line' coverage: 67
+  New 'line' coverage: 68
+  New 'line' coverage: 72
+  New 'line' coverage: 74
+  New 'line' coverage: 77

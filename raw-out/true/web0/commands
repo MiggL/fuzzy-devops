@@ -1,0 +1,11 @@
+sample1.in:
+  --help
+  
+sample2.in:
+  --version
+  
+AFL_SKIP_CPUFREQ=true LD_LIBRARY_PATH=./lib/.libs ./afl/afl-fuzz -T true -i in/ -o out/ coreutils/src/true
+
+./afl-cov/afl-cov -d out --live --coverage-cmd "cat AFL_FILE | LD_LIBRARY_PATH=./lib/.libs ./coreutils/src/true" --code-dir coreutils/src --enable-branch-coverage --overwrite
+
+./afl-tmin.sh 4 dfcmin/queue dftmin df

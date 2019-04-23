@@ -1,0 +1,7 @@
+diff id:000014,src:000004,op:int8,pos:6,val:+0 -> id:000015,src:000004,op:int8,pos:7,val:+0
+Src file: /root/coreutils/src/cp.c
+  New 'line' coverage: 1047
+  New 'line' coverage: 1048
+  New 'line' coverage: 1049
+  New 'line' coverage: 1050
+  New 'line' coverage: 1051

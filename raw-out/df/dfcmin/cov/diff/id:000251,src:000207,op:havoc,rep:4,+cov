@@ -1,0 +1,17 @@
+diff id:000244,src:000205,op:havoc,rep:16 -> id:000251,src:000207,op:havoc,rep:4,+cov
+Src file: /root/coreutils/src/df.c
+  New 'line' coverage: 1386
+  New 'line' coverage: 1387
+  New 'line' coverage: 1388
+  New 'line' coverage: 1389
+  New 'line' coverage: 1508
+  New 'line' coverage: 1509
+  New 'line' coverage: 1546
+  New 'line' coverage: 1551
+  New 'line' coverage: 1552
+  New 'line' coverage: 1571
+  New 'line' coverage: 1640
+  New 'line' coverage: 1746
+  New 'line' coverage: 443
+  New 'line' coverage: 587
+  New 'line' coverage: 588

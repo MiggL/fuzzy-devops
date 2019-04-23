@@ -1,0 +1,13 @@
+diff id:000732,src:000689+000724,op:splice,rep:8 -> id:000733,src:000706,op:havoc,rep:8
+Src file: /root/coreutils/src/df.c
+  New 'line' coverage: 1296
+  New 'line' coverage: 1298
+  New 'line' coverage: 1318
+  New 'line' coverage: 1319
+  New 'line' coverage: 1320
+  New 'line' coverage: 1323
+  New 'line' coverage: 1324
+  New 'line' coverage: 931
+  New 'line' coverage: 943
+  New 'line' coverage: 944
+  New 'line' coverage: 945
