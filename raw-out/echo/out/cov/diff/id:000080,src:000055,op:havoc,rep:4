@@ -1,0 +1,17 @@
+diff id:000079,src:000055,op:havoc,rep:2 -> id:000080,src:000055,op:havoc,rep:4
+Src file: /root/coreutils/src/echo.c
+  New 'line' coverage: 208
+  New 'line' coverage: 209
+  New 'line' coverage: 211
+  New 'line' coverage: 212
+  New 'line' coverage: 213
+  New 'line' coverage: 214
+  New 'line' coverage: 215
+  New 'line' coverage: 216
+  New 'line' coverage: 219
+  New 'line' coverage: 220
+  New 'line' coverage: 233
+  New 'line' coverage: 234
+  New 'line' coverage: 240
+  New 'line' coverage: 241
+  New 'line' coverage: 243
