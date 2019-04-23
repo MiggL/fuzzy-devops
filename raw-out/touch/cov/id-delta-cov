@@ -1,0 +1,9 @@
+# id:NNNNNN*_file, cycle, src_file, coverage_type, fcn/line
+id:000000,orig:sample1.in, 0, /root/coreutils/src/system.h, function, emit_try_help()
+id:000000,orig:sample1.in, 0, /root/coreutils/src/touch.c, function, main()
+id:000000,orig:sample1.in, 0, /root/coreutils/src/touch.c, function, touch()
+id:000000,orig:sample1.in, 0, /root/coreutils/src/touch.c, function, usage()
+id:000000,orig:sample1.in, 0, /root/afl/experimental/argv_fuzzing/argv-fuzz-inl.h, function, afl_init_argv()
+id:000003,orig:sample5.in, 0, /root/coreutils/src/touch.c, function, get_reldate()
+id:000030,src:000001,op:havoc,rep:128, 0, /root/coreutils/src/system.h, function, emit_ancillary_info()
+id:000030,src:000001,op:havoc,rep:128, 0, /root/coreutils/src/system.h, function, emit_mandatory_arg_note()

@@ -1,0 +1,45 @@
+# All functions / lines in this file were executed by at
+# least one AFL test case. See the cov/id-delta-cov file
+# for more information.
+File: /root/coreutils/src/cp.c
+File: /root/coreutils/src/mkdir.c
+File: /root/coreutils/src/remove.c
+File: /root/coreutils/src/ls.c
+File: /root/coreutils/src/ioblksize.h
+File: /root/coreutils/src/pwd.c
+File: /root/coreutils/src/copy.c
+File: /root/coreutils/src/extent-scan.h
+File: /root/coreutils/src/extent-scan.c
+File: /root/coreutils/src/true.c
+File: /root/coreutils/lib/xalloc.h
+File: /root/coreutils/src/date.c
+File: /root/coreutils/src/selinux.h
+File: /root/coreutils/src/prog-fprintf.c
+File: /root/coreutils/src/cat.c
+File: /root/coreutils/src/find-mount-point.c
+File: /root/coreutils/src/dd.c
+File: /root/coreutils/lib/stat-time.h
+File: /root/coreutils/src/uname.c
+File: /root/coreutils/src/df.c
+File: /root/coreutils/src/mv.c
+File: /root/coreutils/src/mktemp.c
+File: /root/coreutils/lib/timespec.h
+File: /root/coreutils/src/echo.c
+File: /root/coreutils/src/printf.c
+File: /root/coreutils/src/system.h
+    function: emit_ancillary_info()
+    function: emit_mandatory_arg_note()
+    function: emit_try_help()
+File: /root/coreutils/lib/openat.h
+File: /root/coreutils/src/cp-hash.c
+File: /root/coreutils/src/sleep.c
+File: /root/coreutils/src/ln.c
+File: /root/coreutils/src/touch.c
+    function: get_reldate()
+    function: main()
+    function: touch()
+    function: usage()
+File: /root/coreutils/src/relpath.c
+File: /root/coreutils/lib/selinux/selinux.h
+File: /root/afl/experimental/argv_fuzzing/argv-fuzz-inl.h
+    function: afl_init_argv()

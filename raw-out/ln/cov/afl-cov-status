@@ -1,0 +1,3 @@
+afl_cov_pid     : 62165
+afl_cov_version : 0.6.2
+command_line    : ./afl-cov/afl-cov -d out/ln --coverage-cmd cat AFL_FILE | ./coreutils/src/ln --code-dir coreutils/src --enable-branch-coverage --overwrite --live

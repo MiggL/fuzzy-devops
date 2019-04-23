@@ -1,0 +1,8 @@
+diff id:000000,orig:sample1.in -> id:000001,orig:sample2.in
+Src file: /root/coreutils/src/date.c
+  New 'line' coverage: 406
+  New 'line' coverage: 407
+  New 'line' coverage: 408
+  New 'line' coverage: 530
+  New 'line' coverage: 531
+  New 'line' coverage: 532

@@ -1,0 +1,4 @@
+diff id:000020,src:000000,op:havoc,rep:64 -> id:000021,src:000000,op:havoc,rep:64
+Src file: /root/coreutils/src/mkdir.c
+  New 'line' coverage: 286
+  New 'line' coverage: 288

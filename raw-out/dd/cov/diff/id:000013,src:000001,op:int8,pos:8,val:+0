@@ -1,0 +1,4 @@
+diff id:000012,src:000001,op:int8,pos:7,val:+0 -> id:000013,src:000001,op:int8,pos:8,val:+0
+Src file: /root/coreutils/src/dd.c
+  New 'line' coverage: 2379
+  New 'line' coverage: 2380

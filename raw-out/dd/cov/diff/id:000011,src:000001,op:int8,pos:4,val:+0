@@ -1,0 +1,43 @@
+diff id:000010,src:000001,op:int8,pos:1,val:+0,+cov -> id:000011,src:000001,op:int8,pos:4,val:+0
+Src file: /root/coreutils/src/dd.c
+  New 'line' coverage: 524
+  New 'line' coverage: 555
+  New 'line' coverage: 560
+  New 'line' coverage: 569
+  New 'line' coverage: 582
+  New 'line' coverage: 591
+  New 'line' coverage: 604
+  New 'line' coverage: 612
+  New 'line' coverage: 621
+  New 'line' coverage: 623
+  New 'line' coverage: 625
+  New 'line' coverage: 627
+  New 'line' coverage: 628
+  New 'line' coverage: 631
+  New 'line' coverage: 633
+  New 'line' coverage: 636
+  New 'line' coverage: 640
+  New 'line' coverage: 643
+  New 'line' coverage: 651
+  New 'line' coverage: 654
+  New 'line' coverage: 657
+  New 'line' coverage: 661
+  New 'line' coverage: 671
+  New 'line' coverage: 672
+  New 'line' coverage: 673
+Src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_ancillary_info()
+  New 'line' coverage: 612
+  New 'line' coverage: 614
+  New 'line' coverage: 624
+  New 'line' coverage: 625
+  New 'line' coverage: 627
+  New 'line' coverage: 628
+  New 'line' coverage: 630
+  New 'line' coverage: 633
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 644
+  New 'line' coverage: 647
+  New 'line' coverage: 649
+  New 'line' coverage: 651

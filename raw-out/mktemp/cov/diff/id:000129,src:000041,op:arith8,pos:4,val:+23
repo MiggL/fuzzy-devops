@@ -1,0 +1,4 @@
+diff id:000128,src:000041,op:arith8,pos:4,val:+22,+cov -> id:000129,src:000041,op:arith8,pos:4,val:+23
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 311
+  New 'line' coverage: 312

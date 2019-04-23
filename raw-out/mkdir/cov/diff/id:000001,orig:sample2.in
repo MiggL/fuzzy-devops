@@ -1,0 +1,33 @@
+diff id:000000,orig:sample1.in -> id:000001,orig:sample2.in
+Src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_ancillary_info()
+  New 'function' coverage: emit_mandatory_arg_note()
+  New 'line' coverage: 585
+  New 'line' coverage: 587
+  New 'line' coverage: 590
+  New 'line' coverage: 612
+  New 'line' coverage: 614
+  New 'line' coverage: 624
+  New 'line' coverage: 625
+  New 'line' coverage: 627
+  New 'line' coverage: 628
+  New 'line' coverage: 630
+  New 'line' coverage: 633
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 644
+  New 'line' coverage: 647
+  New 'line' coverage: 649
+  New 'line' coverage: 651
+Src file: /root/coreutils/src/mkdir.c
+  New 'line' coverage: 215
+  New 'line' coverage: 216
+  New 'line' coverage: 243
+  New 'line' coverage: 58
+  New 'line' coverage: 59
+  New 'line' coverage: 63
+  New 'line' coverage: 65
+  New 'line' coverage: 70
+  New 'line' coverage: 76
+  New 'line' coverage: 77
+  New 'line' coverage: 78

@@ -1,0 +1,15 @@
+diff id:000001,orig:sample3.in -> id:000002,orig:sample4.in
+Src file: /root/coreutils/src/dd.c
+  New 'function' coverage: parse_symbols()
+  New 'line' coverage: 1290
+  New 'line' coverage: 1293
+  New 'line' coverage: 1297
+  New 'line' coverage: 1300
+  New 'line' coverage: 1301
+  New 'line' coverage: 1302
+  New 'line' coverage: 1304
+  New 'line' coverage: 1306
+  New 'line' coverage: 1307
+  New 'line' coverage: 1309
+  New 'line' coverage: 1355
+  New 'line' coverage: 1402

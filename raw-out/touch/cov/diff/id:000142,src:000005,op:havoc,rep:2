@@ -1,0 +1,4 @@
+diff id:000141,src:000005,op:havoc,rep:4 -> id:000142,src:000005,op:havoc,rep:2
+Src file: /root/coreutils/src/touch.c
+  New 'line' coverage: 354
+  New 'line' coverage: 355

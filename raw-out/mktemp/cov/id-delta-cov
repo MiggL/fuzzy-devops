@@ -1,0 +1,7 @@
+# id:NNNNNN*_file, cycle, src_file, coverage_type, fcn/line
+id:000000,orig:sample1.in, 0, /root/coreutils/src/mktemp.c, function, main()
+id:000000,orig:sample1.in, 0, /root/coreutils/src/mktemp.c, function, maybe_close_stdout()
+id:000000,orig:sample1.in, 0, /root/coreutils/src/mktemp.c, function, usage()
+id:000000,orig:sample1.in, 0, /root/coreutils/src/system.h, function, emit_try_help()
+id:000000,orig:sample1.in, 0, /root/afl/experimental/argv_fuzzing/argv-fuzz-inl.h, function, afl_init_argv()
+id:000031,src:000000,op:havoc,rep:128, 0, /root/coreutils/src/system.h, function, emit_ancillary_info()

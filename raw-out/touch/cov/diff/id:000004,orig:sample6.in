@@ -1,0 +1,13 @@
+diff id:000003,orig:sample5.in -> id:000004,orig:sample6.in
+Src file: /root/coreutils/src/touch.c
+  New 'line' coverage: 148
+  New 'line' coverage: 149
+  New 'line' coverage: 299
+  New 'line' coverage: 300
+  New 'line' coverage: 303
+  New 'line' coverage: 304
+  New 'line' coverage: 305
+  New 'line' coverage: 345
+  New 'line' coverage: 346
+  New 'line' coverage: 347
+  New 'line' coverage: 348

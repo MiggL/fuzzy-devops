@@ -1,0 +1,1 @@
+--backup=simple -t -r dir src dst

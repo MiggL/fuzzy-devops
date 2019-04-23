@@ -1,0 +1,3 @@
+diff id:000074,src:000001,op:havoc,rep:64 -> id:000075,src:000001,op:havoc,rep:64
+Src file: /root/coreutils/src/ln.c
+  New 'line' coverage: 592

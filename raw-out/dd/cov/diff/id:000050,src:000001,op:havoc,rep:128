@@ -1,0 +1,3 @@
+diff id:000049,src:000001,op:havoc,rep:8,+cov -> id:000050,src:000001,op:havoc,rep:128
+Src file: /root/coreutils/src/dd.c
+  New 'line' coverage: 2410

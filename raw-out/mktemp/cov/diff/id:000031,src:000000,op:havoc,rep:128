@@ -1,0 +1,30 @@
+diff id:000030,src:000000,op:havoc,rep:128 -> id:000031,src:000000,op:havoc,rep:128
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 198
+  New 'line' coverage: 66
+  New 'line' coverage: 67
+  New 'line' coverage: 72
+  New 'line' coverage: 75
+  New 'line' coverage: 76
+  New 'line' coverage: 81
+  New 'line' coverage: 85
+  New 'line' coverage: 92
+  New 'line' coverage: 97
+  New 'line' coverage: 98
+  New 'line' coverage: 99
+Src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_ancillary_info()
+  New 'line' coverage: 612
+  New 'line' coverage: 614
+  New 'line' coverage: 624
+  New 'line' coverage: 625
+  New 'line' coverage: 627
+  New 'line' coverage: 628
+  New 'line' coverage: 630
+  New 'line' coverage: 633
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 644
+  New 'line' coverage: 647
+  New 'line' coverage: 649
+  New 'line' coverage: 651

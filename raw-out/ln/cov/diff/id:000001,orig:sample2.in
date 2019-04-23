@@ -1,0 +1,10 @@
+diff id:000000,orig:sample1.in -> id:000001,orig:sample2.in
+Src file: /root/coreutils/src/ln.c
+  New 'line' coverage: 499
+  New 'line' coverage: 503
+  New 'line' coverage: 504
+  New 'line' coverage: 514
+  New 'line' coverage: 515
+  New 'line' coverage: 520
+  New 'line' coverage: 521
+  New 'line' coverage: 602

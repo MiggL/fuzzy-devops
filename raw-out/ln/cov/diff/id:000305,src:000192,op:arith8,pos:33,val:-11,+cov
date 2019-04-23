@@ -1,0 +1,19 @@
+diff id:000304,src:000192,op:flip32,pos:10,+cov -> id:000305,src:000192,op:arith8,pos:33,val:-11,+cov
+Src file: /root/coreutils/src/ln.c
+  New 'line' coverage: 272
+  New 'line' coverage: 273
+  New 'line' coverage: 338
+  New 'line' coverage: 353
+  New 'line' coverage: 354
+  New 'line' coverage: 355
+  New 'line' coverage: 530
+  New 'line' coverage: 573
+  New 'line' coverage: 574
+Src file: /root/coreutils/src/relpath.c
+  New 'line' coverage: 110
+  New 'line' coverage: 111
+  New 'line' coverage: 113
+  New 'line' coverage: 117
+  New 'line' coverage: 119
+  New 'line' coverage: 120
+  New 'line' coverage: 54

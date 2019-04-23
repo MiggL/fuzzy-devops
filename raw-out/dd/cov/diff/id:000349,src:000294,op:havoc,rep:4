@@ -1,0 +1,37 @@
+diff id:000348,src:000292,op:flip1,pos:14 -> id:000349,src:000294,op:havoc,rep:4
+Src file: /root/coreutils/src/dd.c
+  New 'function' coverage: skip()
+  New 'function' coverage: skip_via_lseek()
+  New 'line' coverage: 1343
+  New 'line' coverage: 1344
+  New 'line' coverage: 1504
+  New 'line' coverage: 1661
+  New 'line' coverage: 1662
+  New 'line' coverage: 1690
+  New 'line' coverage: 1694
+  New 'line' coverage: 1698
+  New 'line' coverage: 1699
+  New 'line' coverage: 1700
+  New 'line' coverage: 1713
+  New 'line' coverage: 1729
+  New 'line' coverage: 1732
+  New 'line' coverage: 1738
+  New 'line' coverage: 1739
+  New 'line' coverage: 1740
+  New 'line' coverage: 1742
+  New 'line' coverage: 1745
+  New 'line' coverage: 1747
+  New 'line' coverage: 1752
+  New 'line' coverage: 1753
+  New 'line' coverage: 1757
+  New 'line' coverage: 2064
+  New 'line' coverage: 2065
+  New 'line' coverage: 2066
+  New 'line' coverage: 2068
+  New 'line' coverage: 2076
+  New 'line' coverage: 2077
+  New 'line' coverage: 2079
+  New 'line' coverage: 2080
+Src file: /root/coreutils/src/system.h
+  New 'line' coverage: 679
+  New 'line' coverage: 680

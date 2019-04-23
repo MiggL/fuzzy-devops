@@ -1,0 +1,3 @@
+diff id:000010,src:000001,op:int8,pos:15,val:+0 -> id:000011,src:000001,op:int8,pos:16,val:+0
+Src file: /root/coreutils/src/ln.c
+  New 'line' coverage: 599

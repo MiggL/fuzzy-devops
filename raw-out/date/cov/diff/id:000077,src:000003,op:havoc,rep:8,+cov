@@ -1,0 +1,5 @@
+diff id:000076,src:000003,op:havoc,rep:16 -> id:000077,src:000003,op:havoc,rep:8,+cov
+Src file: /root/coreutils/lib/stat-time.h
+  New 'line' coverage: 143
+Src file: /root/coreutils/src/date.c
+  New 'line' coverage: 526

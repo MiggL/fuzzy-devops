@@ -1,0 +1,18 @@
+diff id:000011,src:000001,op:int8,pos:4,val:+0 -> id:000012,src:000001,op:int8,pos:7,val:+0
+Src file: /root/coreutils/src/dd.c
+  New 'function' coverage: ifd_reopen()
+  New 'line' coverage: 1243
+  New 'line' coverage: 1249
+  New 'line' coverage: 1250
+  New 'line' coverage: 1252
+  New 'line' coverage: 1254
+  New 'line' coverage: 2122
+  New 'line' coverage: 2123
+  New 'line' coverage: 2396
+  New 'line' coverage: 2397
+  New 'line' coverage: 2399
+  New 'line' coverage: 2400
+  New 'line' coverage: 2401
+  New 'line' coverage: 2406
+  New 'line' coverage: 2408
+  New 'line' coverage: 2413

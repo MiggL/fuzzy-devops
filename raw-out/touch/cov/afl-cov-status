@@ -1,0 +1,3 @@
+afl_cov_pid     : 81361
+afl_cov_version : 0.6.2
+command_line    : ./afl-cov/afl-cov -d out/touch --coverage-cmd cat AFL_FILE | ./coreutils/src/touch --code-dir coreutils/src --enable-branch-coverage --overwrite --live

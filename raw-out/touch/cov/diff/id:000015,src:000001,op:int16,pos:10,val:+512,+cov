@@ -1,0 +1,10 @@
+diff id:000014,src:000001,op:int16,pos:5,val:+0 -> id:000015,src:000001,op:int16,pos:10,val:+512,+cov
+Src file: /root/coreutils/lib/stat-time.h
+  New 'line' coverage: 115
+  New 'line' coverage: 143
+Src file: /root/coreutils/src/touch.c
+  New 'line' coverage: 349
+  New 'line' coverage: 350
+  New 'line' coverage: 351
+  New 'line' coverage: 352
+  New 'line' coverage: 357

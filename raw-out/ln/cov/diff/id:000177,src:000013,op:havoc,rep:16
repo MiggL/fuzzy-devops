@@ -1,0 +1,28 @@
+diff id:000176,src:000013,op:havoc,rep:16 -> id:000177,src:000013,op:havoc,rep:16
+Src file: /root/coreutils/src/ln.c
+  New 'line' coverage: 216
+  New 'line' coverage: 217
+  New 'line' coverage: 227
+  New 'line' coverage: 248
+  New 'line' coverage: 254
+  New 'line' coverage: 255
+  New 'line' coverage: 256
+  New 'line' coverage: 261
+  New 'line' coverage: 263
+  New 'line' coverage: 265
+  New 'line' coverage: 270
+  New 'line' coverage: 275
+  New 'line' coverage: 277
+  New 'line' coverage: 278
+  New 'line' coverage: 283
+  New 'line' coverage: 285
+  New 'line' coverage: 286
+  New 'line' coverage: 330
+  New 'line' coverage: 339
+  New 'line' coverage: 341
+  New 'line' coverage: 368
+  New 'line' coverage: 369
+  New 'line' coverage: 537
+  New 'line' coverage: 538
+  New 'line' coverage: 541
+  New 'line' coverage: 542

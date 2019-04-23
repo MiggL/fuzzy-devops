@@ -1,0 +1,35 @@
+diff id:000006,src:000001,op:flip1,pos:14 -> id:000007,src:000001,op:arith8,pos:0,val:-30,+cov
+Src file: /root/coreutils/src/ln.c
+  New 'line' coverage: 393
+  New 'line' coverage: 400
+  New 'line' coverage: 411
+  New 'line' coverage: 413
+  New 'line' coverage: 421
+  New 'line' coverage: 430
+  New 'line' coverage: 437
+  New 'line' coverage: 438
+  New 'line' coverage: 439
+  New 'line' coverage: 446
+  New 'line' coverage: 452
+  New 'line' coverage: 457
+  New 'line' coverage: 553
+Src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_ancillary_info()
+  New 'function' coverage: emit_mandatory_arg_note()
+  New 'line' coverage: 585
+  New 'line' coverage: 587
+  New 'line' coverage: 590
+  New 'line' coverage: 612
+  New 'line' coverage: 614
+  New 'line' coverage: 624
+  New 'line' coverage: 625
+  New 'line' coverage: 627
+  New 'line' coverage: 628
+  New 'line' coverage: 630
+  New 'line' coverage: 633
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 644
+  New 'line' coverage: 647
+  New 'line' coverage: 649
+  New 'line' coverage: 651

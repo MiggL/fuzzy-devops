@@ -1,0 +1,1068 @@
+
+*** Imported 91 new test cases from: out/mktemp/queue
+
+[+] AFL test case: id:000000,orig:sample1.in (0 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 39.6% (44 of 111 branches)
+
+    Coverage diff (init) id:000000,orig:sample1.in
+diff (init) -> id:000000,orig:sample1.in
+New src file: /root/coreutils/src/mktemp.c
+  New 'function' coverage: main()
+  New 'function' coverage: maybe_close_stdout()
+  New 'function' coverage: usage()
+  New 'line' coverage: 102
+  New 'line' coverage: 108
+  New 'line' coverage: 109
+  New 'line' coverage: 110
+  New 'line' coverage: 117
+  New 'line' coverage: 136
+  New 'line' coverage: 138
+  New 'line' coverage: 139
+  New 'line' coverage: 140
+  New 'line' coverage: 142
+  New 'line' coverage: 145
+  New 'line' coverage: 147
+  New 'line' coverage: 149
+  New 'line' coverage: 150
+  New 'line' coverage: 154
+  New 'line' coverage: 155
+  New 'line' coverage: 156
+  New 'line' coverage: 157
+  New 'line' coverage: 158
+  New 'line' coverage: 159
+  New 'line' coverage: 165
+  New 'line' coverage: 166
+  New 'line' coverage: 167
+  New 'line' coverage: 168
+  New 'line' coverage: 170
+  New 'line' coverage: 172
+  New 'line' coverage: 174
+  New 'line' coverage: 204
+  New 'line' coverage: 208
+  New 'line' coverage: 209
+  New 'line' coverage: 211
+  New 'line' coverage: 212
+  New 'line' coverage: 215
+  New 'line' coverage: 217
+  New 'line' coverage: 218
+  New 'line' coverage: 222
+  New 'line' coverage: 225
+  New 'line' coverage: 243
+  New 'line' coverage: 244
+  New 'line' coverage: 245
+  New 'line' coverage: 246
+  New 'line' coverage: 248
+  New 'line' coverage: 249
+  New 'line' coverage: 253
+  New 'line' coverage: 259
+  New 'line' coverage: 260
+  New 'line' coverage: 261
+  New 'line' coverage: 263
+  New 'line' coverage: 265
+  New 'line' coverage: 282
+  New 'line' coverage: 286
+  New 'line' coverage: 287
+  New 'line' coverage: 289
+  New 'line' coverage: 296
+  New 'line' coverage: 297
+  New 'line' coverage: 298
+  New 'line' coverage: 304
+  New 'line' coverage: 306
+  New 'line' coverage: 319
+  New 'line' coverage: 320
+  New 'line' coverage: 329
+  New 'line' coverage: 331
+  New 'line' coverage: 334
+  New 'line' coverage: 345
+  New 'line' coverage: 346
+  New 'line' coverage: 60
+  New 'line' coverage: 62
+  New 'line' coverage: 63
+New src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_try_help()
+  New 'line' coverage: 654
+  New 'line' coverage: 656
+  New 'line' coverage: 657
+New src file: /root/afl/experimental/argv_fuzzing/argv-fuzz-inl.h
+  New 'function' coverage: afl_init_argv()
+  New 'line' coverage: 50
+  New 'line' coverage: 55
+  New 'line' coverage: 56
+  New 'line' coverage: 58
+  New 'line' coverage: 60
+  New 'line' coverage: 62
+  New 'line' coverage: 63
+  New 'line' coverage: 64
+  New 'line' coverage: 66
+  New 'line' coverage: 67
+  New 'line' coverage: 71
+  New 'line' coverage: 73
+
+
+
+++++++ BEGIN - first exec output for CMD: cat out/mktemp/queue/id:000000,orig:sample1.in | ./coreutils/src/mktemp
+    /tmp/tmp.9MipMFeA8d
+++++++ END
+
+[+] AFL test case: id:000001,orig:sample2.in (1 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 39.6% (44 of 111 branches)
+[+] AFL test case: id:000002,orig:sample3.in (2 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 39.6% (44 of 111 branches)
+[+] AFL test case: id:000003,orig:sample4.in (3 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 39.6% (44 of 111 branches)
+[+] AFL test case: id:000004,src:000000,op:flip1,pos:0 (4 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 39.6% (44 of 111 branches)
+[+] AFL test case: id:000005,src:000000,op:flip1,pos:0,+cov (5 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 39.6% (44 of 111 branches)
+[+] AFL test case: id:000006,src:000000,op:flip2,pos:0 (6 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 39.6% (44 of 111 branches)
+[+] AFL test case: id:000007,src:000000,op:arith8,pos:0,val:-30,+cov (7 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 39.6% (44 of 111 branches)
+[+] AFL test case: id:000008,src:000000,op:int8,pos:1,val:+0,+cov (8 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 39.6% (44 of 111 branches)
+[+] AFL test case: id:000009,src:000000,op:int8,pos:2,val:+0,+cov (9 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 39.6% (44 of 111 branches)
+[+] AFL test case: id:000010,src:000000,op:int8,pos:3,val:+0 (10 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 41.4% (46 of 111 branches)
+[+] AFL test case: id:000011,src:000000,op:int8,pos:4,val:+0 (11 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 41.4% (46 of 111 branches)
+[+] AFL test case: id:000012,src:000000,op:int8,pos:5,val:+0 (12 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 41.4% (46 of 111 branches)
+[+] AFL test case: id:000013,src:000000,op:int8,pos:6,val:+0 (13 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000014,src:000000,op:int16,pos:0,val:be:+512,+cov (14 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000015,src:000000,op:int16,pos:1,val:be:+32,+cov (15 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000016,src:000000,op:int16,pos:1,val:be:+64,+cov (16 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000017,src:000000,op:int16,pos:1,val:be:+127,+cov (17 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000018,src:000000,op:int16,pos:1,val:+512,+cov (18 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000019,src:000000,op:int16,pos:2,val:+0 (19 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000020,src:000000,op:int16,pos:3,val:+0 (20 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000021,src:000000,op:int16,pos:4,val:+0 (21 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000022,src:000000,op:int16,pos:6,val:+512,+cov (22 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000023,src:000000,op:int32,pos:1,val:-32768 (23 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000024,src:000000,op:havoc,rep:4 (24 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000025,src:000000,op:havoc,rep:64 (25 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000026,src:000000,op:havoc,rep:128,+cov (26 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000027,src:000000,op:havoc,rep:128 (27 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000028,src:000000,op:havoc,rep:8,+cov (28 / 91), cycle: 0
+    lines......: 1.3% (83 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 42.3% (47 of 111 branches)
+[+] AFL test case: id:000029,src:000000,op:havoc,rep:16 (29 / 91), cycle: 0
+    lines......: 1.3% (86 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 45.9% (51 of 111 branches)
+
+    Coverage diff id:000028,src:000000,op:havoc,rep:8,+cov id:000029,src:000000,op:havoc,rep:16
+diff id:000028,src:000000,op:havoc,rep:8,+cov -> id:000029,src:000000,op:havoc,rep:16
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 124
+  New 'line' coverage: 308
+  New 'line' coverage: 309
+
+[+] AFL test case: id:000030,src:000000,op:havoc,rep:128 (30 / 91), cycle: 0
+    lines......: 1.3% (86 of 6389 lines)
+    functions..: 1.7% (5 of 302 functions)
+    branches...: 45.9% (51 of 111 branches)
+[+] AFL test case: id:000031,src:000000,op:havoc,rep:128 (31 / 91), cycle: 0
+    lines......: 1.8% (112 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 54.1% (60 of 111 branches)
+
+    Coverage diff id:000030,src:000000,op:havoc,rep:128 id:000031,src:000000,op:havoc,rep:128
+diff id:000030,src:000000,op:havoc,rep:128 -> id:000031,src:000000,op:havoc,rep:128
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 198
+  New 'line' coverage: 66
+  New 'line' coverage: 67
+  New 'line' coverage: 72
+  New 'line' coverage: 75
+  New 'line' coverage: 76
+  New 'line' coverage: 81
+  New 'line' coverage: 85
+  New 'line' coverage: 92
+  New 'line' coverage: 97
+  New 'line' coverage: 98
+  New 'line' coverage: 99
+Src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_ancillary_info()
+  New 'line' coverage: 612
+  New 'line' coverage: 614
+  New 'line' coverage: 624
+  New 'line' coverage: 625
+  New 'line' coverage: 627
+  New 'line' coverage: 628
+  New 'line' coverage: 630
+  New 'line' coverage: 633
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 644
+  New 'line' coverage: 647
+  New 'line' coverage: 649
+  New 'line' coverage: 651
+
+[+] AFL test case: id:000032,src:000000,op:havoc,rep:64,+cov (32 / 91), cycle: 0
+    lines......: 1.8% (112 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 54.1% (60 of 111 branches)
+[+] AFL test case: id:000033,src:000000,op:havoc,rep:64 (33 / 91), cycle: 0
+    lines......: 1.8% (112 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 54.1% (60 of 111 branches)
+[+] AFL test case: id:000034,src:000000,op:havoc,rep:4 (34 / 91), cycle: 0
+    lines......: 1.8% (112 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 54.1% (60 of 111 branches)
+[+] AFL test case: id:000035,src:000000,op:havoc,rep:8 (35 / 91), cycle: 0
+    lines......: 1.8% (112 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 54.1% (60 of 111 branches)
+[+] AFL test case: id:000036,src:000000,op:havoc,rep:64 (36 / 91), cycle: 0
+    lines......: 1.8% (112 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 54.1% (60 of 111 branches)
+[+] AFL test case: id:000037,src:000000,op:havoc,rep:4 (37 / 91), cycle: 0
+    lines......: 1.8% (112 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 54.1% (60 of 111 branches)
+[+] AFL test case: id:000038,src:000000,op:havoc,rep:32 (38 / 91), cycle: 0
+    lines......: 1.8% (112 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 54.1% (60 of 111 branches)
+[+] AFL test case: id:000039,src:000000,op:havoc,rep:8,+cov (39 / 91), cycle: 0
+    lines......: 1.8% (112 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 54.1% (60 of 111 branches)
+[+] AFL test case: id:000040,src:000000,op:havoc,rep:128 (40 / 91), cycle: 0
+    lines......: 1.8% (112 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 54.1% (60 of 111 branches)
+[+] AFL test case: id:000041,src:000000,op:havoc,rep:8,+cov (41 / 91), cycle: 0
+    lines......: 1.8% (114 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 55.0% (61 of 111 branches)
+
+    Coverage diff id:000040,src:000000,op:havoc,rep:128 id:000041,src:000000,op:havoc,rep:8,+cov
+diff id:000040,src:000000,op:havoc,rep:128 -> id:000041,src:000000,op:havoc,rep:8,+cov
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 184
+  New 'line' coverage: 185
+
+[+] AFL test case: id:000042,src:000000,op:havoc,rep:32,+cov (42 / 91), cycle: 0
+    lines......: 1.8% (114 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 55.0% (61 of 111 branches)
+[+] AFL test case: id:000043,src:000000,op:havoc,rep:8 (43 / 91), cycle: 0
+    lines......: 1.8% (114 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 55.0% (61 of 111 branches)
+[+] AFL test case: id:000044,src:000000,op:havoc,rep:64 (44 / 91), cycle: 0
+    lines......: 1.8% (114 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 55.0% (61 of 111 branches)
+[+] AFL test case: id:000045,src:000000,op:havoc,rep:32,+cov (45 / 91), cycle: 0
+    lines......: 1.8% (114 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 55.0% (61 of 111 branches)
+[+] AFL test case: id:000046,src:000000,op:havoc,rep:64,+cov (46 / 91), cycle: 0
+    lines......: 1.8% (114 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 55.0% (61 of 111 branches)
+[+] AFL test case: id:000047,src:000000,op:havoc,rep:16 (47 / 91), cycle: 0
+    lines......: 1.8% (114 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 55.0% (61 of 111 branches)
+[+] AFL test case: id:000048,src:000000,op:havoc,rep:8 (48 / 91), cycle: 0
+    lines......: 1.8% (114 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 55.0% (61 of 111 branches)
+[+] AFL test case: id:000049,src:000000,op:havoc,rep:32,+cov (49 / 91), cycle: 0
+    lines......: 1.8% (114 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 55.0% (61 of 111 branches)
+[+] AFL test case: id:000050,src:000000,op:havoc,rep:64 (50 / 91), cycle: 0
+    lines......: 1.8% (114 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 55.0% (61 of 111 branches)
+[+] AFL test case: id:000051,src:000000,op:havoc,rep:64 (51 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+
+    Coverage diff id:000050,src:000000,op:havoc,rep:64 id:000051,src:000000,op:havoc,rep:64
+diff id:000050,src:000000,op:havoc,rep:64 -> id:000051,src:000000,op:havoc,rep:64
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 180
+  New 'line' coverage: 181
+  New 'line' coverage: 182
+  New 'line' coverage: 322
+  New 'line' coverage: 323
+
+[+] AFL test case: id:000052,src:000000,op:havoc,rep:64 (52 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000053,src:000000,op:havoc,rep:64 (53 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000054,src:000000,op:havoc,rep:4,+cov (54 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000055,src:000000,op:havoc,rep:64 (55 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000056,src:000000,op:havoc,rep:16 (56 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000057,src:000000,op:havoc,rep:64 (57 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000058,src:000000,op:havoc,rep:64 (58 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000059,src:000000,op:havoc,rep:32 (59 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000060,src:000000,op:havoc,rep:128 (60 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000061,src:000000,op:havoc,rep:64,+cov (61 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000062,src:000000,op:havoc,rep:32 (62 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000063,src:000000,op:havoc,rep:128 (63 / 91), cycle: 0
+    lines......: 1.9% (119 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 60.4% (67 of 111 branches)
+[+] AFL test case: id:000064,src:000000,op:havoc,rep:64 (64 / 91), cycle: 0
+    lines......: 2.0% (125 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 63.1% (70 of 111 branches)
+
+    Coverage diff id:000063,src:000000,op:havoc,rep:128 id:000064,src:000000,op:havoc,rep:64
+diff id:000063,src:000000,op:havoc,rep:128 -> id:000064,src:000000,op:havoc,rep:64
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 187
+  New 'line' coverage: 188
+  New 'line' coverage: 189
+  New 'line' coverage: 191
+  New 'line' coverage: 192
+  New 'line' coverage: 202
+
+[+] AFL test case: id:000065,src:000000,op:havoc,rep:128 (65 / 91), cycle: 0
+    lines......: 2.0% (125 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 63.1% (70 of 111 branches)
+[+] AFL test case: id:000066,src:000000,op:havoc,rep:128,+cov (66 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+
+    Coverage diff id:000065,src:000000,op:havoc,rep:128 id:000066,src:000000,op:havoc,rep:128,+cov
+diff id:000065,src:000000,op:havoc,rep:128 -> id:000066,src:000000,op:havoc,rep:128,+cov
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 255
+  New 'line' coverage: 256
+
+[+] AFL test case: id:000067,src:000000,op:havoc,rep:128 (67 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000068,src:000000,op:havoc,rep:2,+cov (68 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000069,src:000000,op:havoc,rep:128 (69 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000070,src:000000,op:havoc,rep:16 (70 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000071,src:000000,op:havoc,rep:64,+cov (71 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000072,src:000000,op:havoc,rep:8 (72 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000073,src:000000,op:havoc,rep:4,+cov (73 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000074,src:000000,op:havoc,rep:32 (74 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000075,src:000000,op:havoc,rep:64 (75 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000076,src:000000,op:havoc,rep:32 (76 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000077,src:000000,op:havoc,rep:8,+cov (77 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000078,src:000000,op:havoc,rep:4 (78 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000079,src:000000,op:havoc,rep:16 (79 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000080,src:000000,op:havoc,rep:4 (80 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000081,src:000000,op:havoc,rep:32 (81 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000082,src:000000,op:havoc,rep:32 (82 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000083,src:000000,op:havoc,rep:8 (83 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000084,src:000000,op:havoc,rep:128 (84 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000085,src:000000,op:havoc,rep:128,+cov (85 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000086,src:000000,op:havoc,rep:32 (86 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000087,src:000000,op:havoc,rep:128 (87 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000088,src:000000,op:havoc,rep:64 (88 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000089,src:000000,op:havoc,rep:32,+cov (89 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000090,src:000000,op:havoc,rep:64 (90 / 91), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+
+*** Imported 31 new test cases from: out/mktemp/queue
+
+[+] AFL test case: id:000091,src:000000,op:havoc,rep:64 (0 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000092,src:000000,op:havoc,rep:16 (1 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000093,src:000000,op:havoc,rep:32 (2 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000094,src:000000,op:havoc,rep:32 (3 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000095,src:000000,op:havoc,rep:64,+cov (4 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000096,src:000000,op:havoc,rep:8 (5 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000097,src:000000,op:havoc,rep:32 (6 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000098,src:000000,op:havoc,rep:128 (7 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000099,src:000000,op:havoc,rep:8 (8 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000100,src:000000,op:havoc,rep:32,+cov (9 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000101,src:000000,op:havoc,rep:64 (10 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000102,src:000000,op:havoc,rep:64 (11 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000103,src:000005,op:havoc,rep:32 (12 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000104,src:000005,op:havoc,rep:128 (13 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000105,src:000007,op:havoc,rep:32,+cov (14 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000106,src:000007,op:havoc,rep:128 (15 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000107,src:000007,op:havoc,rep:128,+cov (16 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000108,src:000007,op:havoc,rep:32 (17 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000109,src:000007,op:havoc,rep:16 (18 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000110,src:000007,op:havoc,rep:64 (19 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000111,src:000007,op:havoc,rep:32 (20 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000112,src:000007,op:havoc,rep:64 (21 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000113,src:000014,op:arith8,pos:3,val:+13,+cov (22 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000114,src:000014,op:arith8,pos:3,val:-18,+cov (23 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000115,src:000018,op:havoc,rep:16,+cov (24 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000116,src:000018,op:havoc,rep:2 (25 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000117,src:000018,op:havoc,rep:64 (26 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000118,src:000018,op:havoc,rep:128,+cov (27 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000119,src:000018,op:havoc,rep:128 (28 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000120,src:000018,op:havoc,rep:128 (29 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000121,src:000018,op:havoc,rep:16 (30 / 122), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+
+*** Imported 5 new test cases from: out/mktemp/queue
+
+[+] AFL test case: id:000122,src:000018,op:havoc,rep:16 (0 / 127), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000123,src:000018,op:havoc,rep:4 (1 / 127), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000124,src:000018,op:havoc,rep:128 (2 / 127), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000125,src:000018,op:havoc,rep:4 (3 / 127), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[+] AFL test case: id:000126,src:000018,op:havoc,rep:16,+cov (4 / 127), cycle: 0
+    lines......: 2.0% (127 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 64.0% (71 of 111 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 41 new test cases from: out/mktemp/queue
+
+[+] AFL test case: id:000127,src:000041,op:arith8,pos:4,val:+10 (0 / 168), cycle: 0
+    lines......: 2.1% (131 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 68.5% (76 of 111 branches)
+
+    Coverage diff id:000126,src:000018,op:havoc,rep:16,+cov id:000127,src:000041,op:arith8,pos:4,val:+10
+diff id:000126,src:000018,op:havoc,rep:16,+cov -> id:000127,src:000041,op:arith8,pos:4,val:+10
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 267
+  New 'line' coverage: 268
+  New 'line' coverage: 270
+  New 'line' coverage: 275
+
+[+] AFL test case: id:000128,src:000041,op:arith8,pos:4,val:+22,+cov (1 / 168), cycle: 0
+    lines......: 2.1% (131 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 68.5% (76 of 111 branches)
+[+] AFL test case: id:000129,src:000041,op:arith8,pos:4,val:+23 (2 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+
+    Coverage diff id:000128,src:000041,op:arith8,pos:4,val:+22,+cov id:000129,src:000041,op:arith8,pos:4,val:+23
+diff id:000128,src:000041,op:arith8,pos:4,val:+22,+cov -> id:000129,src:000041,op:arith8,pos:4,val:+23
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 311
+  New 'line' coverage: 312
+
+[+] AFL test case: id:000130,src:000044,op:havoc,rep:8 (3 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000131,src:000044,op:havoc,rep:64 (4 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000132,src:000044,op:havoc,rep:32 (5 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000133,src:000044,op:havoc,rep:128 (6 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000134,src:000044,op:havoc,rep:8 (7 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000135,src:000044,op:havoc,rep:128 (8 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000136,src:000044,op:havoc,rep:64 (9 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000137,src:000044,op:havoc,rep:8 (10 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000138,src:000044,op:havoc,rep:128 (11 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000139,src:000044,op:havoc,rep:8 (12 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000140,src:000044,op:havoc,rep:128 (13 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000141,src:000044,op:havoc,rep:32 (14 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000142,src:000044,op:havoc,rep:128 (15 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000143,src:000056,op:havoc,rep:128 (16 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000144,src:000061,op:flip1,pos:9 (17 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000145,src:000061,op:flip1,pos:10,+cov (18 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000146,src:000061,op:flip1,pos:10 (19 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000147,src:000061,op:flip1,pos:11,+cov (20 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000148,src:000061,op:flip4,pos:14,+cov (21 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000149,src:000061,op:arith8,pos:14,val:-23 (22 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 70.3% (78 of 111 branches)
+[+] AFL test case: id:000150,src:000061,op:arith8,pos:15,val:-17,+cov (23 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000151,src:000061,op:int16,pos:7,val:+1,+cov (24 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000152,src:000061,op:int32,pos:5,val:-32768,+cov (25 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000153,src:000061,op:havoc,rep:8,+cov (26 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000154,src:000061,op:havoc,rep:4,+cov (27 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000155,src:000061,op:havoc,rep:8,+cov (28 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000156,src:000061,op:havoc,rep:2,+cov (29 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000157,src:000061,op:havoc,rep:64,+cov (30 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000158,src:000061,op:havoc,rep:4 (31 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000159,src:000061,op:havoc,rep:16,+cov (32 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000160,src:000061,op:havoc,rep:2 (33 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000161,src:000061,op:havoc,rep:64,+cov (34 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000162,src:000061,op:havoc,rep:4 (35 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000163,src:000061,op:havoc,rep:64,+cov (36 / 168), cycle: 0
+    lines......: 2.1% (133 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 73.0% (81 of 111 branches)
+[+] AFL test case: id:000164,src:000061,op:havoc,rep:4 (37 / 168), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+
+    Coverage diff id:000163,src:000061,op:havoc,rep:64,+cov id:000164,src:000061,op:havoc,rep:4
+diff id:000163,src:000061,op:havoc,rep:64,+cov -> id:000164,src:000061,op:havoc,rep:4
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 271
+
+[+] AFL test case: id:000165,src:000061,op:havoc,rep:64 (38 / 168), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+[+] AFL test case: id:000166,src:000066,op:arith8,pos:10,val:-30 (39 / 168), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+[+] AFL test case: id:000167,src:000068,op:havoc,rep:8 (40 / 168), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+
+*** Imported 8 new test cases from: out/mktemp/queue
+
+[+] AFL test case: id:000168,src:000068,op:havoc,rep:2,+cov (0 / 176), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+[+] AFL test case: id:000169,src:000068,op:havoc,rep:2,+cov (1 / 176), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+[+] AFL test case: id:000170,src:000068,op:havoc,rep:4 (2 / 176), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+[+] AFL test case: id:000171,src:000068,op:havoc,rep:2 (3 / 176), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+[+] AFL test case: id:000172,src:000068,op:havoc,rep:4,+cov (4 / 176), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+[+] AFL test case: id:000173,src:000068,op:havoc,rep:2 (5 / 176), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+[+] AFL test case: id:000174,src:000068,op:havoc,rep:2,+cov (6 / 176), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+[+] AFL test case: id:000175,src:000068,op:havoc,rep:8 (7 / 176), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 74.8% (83 of 111 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 17 new test cases from: out/mktemp/queue
+
+[+] AFL test case: id:000176,src:000078,op:int16,pos:5,val:be:+512 (0 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000177,src:000089,op:havoc,rep:4 (1 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000178,src:000100,op:arith8,pos:5,val:-10,+cov (2 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000179,src:000128,op:havoc,rep:16 (3 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000180,src:000128,op:havoc,rep:4 (4 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000181,src:000128,op:havoc,rep:32 (5 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000182,src:000128,op:havoc,rep:16 (6 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000183,src:000128,op:havoc,rep:8 (7 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000184,src:000128,op:havoc,rep:4 (8 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000185,src:000128,op:havoc,rep:2 (9 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000186,src:000128,op:havoc,rep:128 (10 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000187,src:000128,op:havoc,rep:8 (11 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000188,src:000128,op:havoc,rep:4 (12 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000189,src:000128,op:havoc,rep:4,+cov (13 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000190,src:000138,op:flip1,pos:4 (14 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000191,src:000138,op:flip2,pos:46 (15 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000192,src:000138,op:flip4,pos:2 (16 / 193), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 2 new test cases from: out/mktemp/queue
+
+[+] AFL test case: id:000193,src:000159,op:havoc,rep:64 (0 / 195), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[+] AFL test case: id:000194,src:000161,op:havoc,rep:4 (1 / 195), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 75.7% (84 of 111 branches)
+[-] No new AFL test cases, sleeping for 60 seconds
+
+*** Imported 13 new test cases from: out/mktemp/queue
+
+[+] AFL test case: id:000195,src:000168,op:havoc,rep:4,+cov (0 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000196,src:000168,op:havoc,rep:4,+cov (1 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000197,src:000168,op:havoc,rep:2,+cov (2 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000198,src:000168,op:havoc,rep:2,+cov (3 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000199,src:000168,op:havoc,rep:2,+cov (4 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000200,src:000168,op:havoc,rep:2,+cov (5 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000201,src:000168,op:havoc,rep:4 (6 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000202,src:000168,op:havoc,rep:16 (7 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000203,src:000168,op:havoc,rep:16 (8 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000204,src:000168,op:havoc,rep:16 (9 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000205,src:000169,op:arith8,pos:6,val:+5,+cov (10 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000206,src:000169,op:int8,pos:4,val:+100 (11 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] AFL test case: id:000207,src:000169,op:int16,pos:7,val:+512,+cov (12 / 208), cycle: 0
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] afl-fuzz appears to be stopped...
+[+] Processed 208 / 208 test cases.
+
+[+] Final zero coverage report: out/mktemp/cov/zero-cov
+[+] Final positive coverage report: out/mktemp/cov/pos-cov
+    lines......: 2.1% (134 of 6389 lines)
+    functions..: 2.0% (6 of 302 functions)
+    branches...: 77.5% (86 of 111 branches)
+[+] Final lcov web report: out/mktemp/cov/web/index.html

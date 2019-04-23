@@ -1,0 +1,57 @@
+diff (init) -> id:000000,orig:sample1.in
+New src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_try_help()
+  New 'line' coverage: 654
+  New 'line' coverage: 656
+  New 'line' coverage: 657
+New src file: /root/coreutils/src/mkdir.c
+  New 'function' coverage: main()
+  New 'function' coverage: usage()
+  New 'line' coverage: 188
+  New 'line' coverage: 190
+  New 'line' coverage: 191
+  New 'line' coverage: 193
+  New 'line' coverage: 196
+  New 'line' coverage: 197
+  New 'line' coverage: 198
+  New 'line' coverage: 199
+  New 'line' coverage: 200
+  New 'line' coverage: 203
+  New 'line' coverage: 204
+  New 'line' coverage: 205
+  New 'line' coverage: 206
+  New 'line' coverage: 208
+  New 'line' coverage: 210
+  New 'line' coverage: 212
+  New 'line' coverage: 218
+  New 'line' coverage: 219
+  New 'line' coverage: 246
+  New 'line' coverage: 250
+  New 'line' coverage: 252
+  New 'line' coverage: 253
+  New 'line' coverage: 274
+  New 'line' coverage: 276
+  New 'line' coverage: 277
+  New 'line' coverage: 278
+  New 'line' coverage: 280
+  New 'line' coverage: 282
+  New 'line' coverage: 283
+  New 'line' coverage: 284
+  New 'line' coverage: 52
+  New 'line' coverage: 54
+  New 'line' coverage: 55
+  New 'line' coverage: 80
+New src file: /root/afl/experimental/argv_fuzzing/argv-fuzz-inl.h
+  New 'function' coverage: afl_init_argv()
+  New 'line' coverage: 50
+  New 'line' coverage: 55
+  New 'line' coverage: 56
+  New 'line' coverage: 58
+  New 'line' coverage: 60
+  New 'line' coverage: 62
+  New 'line' coverage: 63
+  New 'line' coverage: 64
+  New 'line' coverage: 66
+  New 'line' coverage: 67
+  New 'line' coverage: 71
+  New 'line' coverage: 73

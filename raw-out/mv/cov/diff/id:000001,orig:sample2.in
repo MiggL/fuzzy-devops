@@ -1,0 +1,4 @@
+diff id:000000,orig:sample1.in -> id:000001,orig:sample2.in
+Src file: /root/coreutils/src/mv.c
+  New 'line' coverage: 420
+  New 'line' coverage: 421

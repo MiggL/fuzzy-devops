@@ -1,0 +1,5 @@
+diff id:000001,orig:sample2.in -> id:000002,orig:sample3.in
+Src file: /root/coreutils/src/mkdir.c
+  New 'line' coverage: 221
+  New 'line' coverage: 222
+  New 'line' coverage: 236

@@ -1,0 +1,4 @@
+diff id:000004,src:000003,op:flip1,pos:0 -> id:000005,src:000003,op:flip1,pos:0,+cov
+Src file: /root/coreutils/src/date.c
+  New 'line' coverage: 363
+  New 'line' coverage: 364

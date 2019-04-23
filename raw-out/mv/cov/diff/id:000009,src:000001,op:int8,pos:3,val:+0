@@ -1,0 +1,4 @@
+diff id:000008,src:000001,op:int8,pos:2,val:+0,+cov -> id:000009,src:000001,op:int8,pos:3,val:+0
+Src file: /root/coreutils/src/mv.c
+  New 'line' coverage: 387
+  New 'line' coverage: 388

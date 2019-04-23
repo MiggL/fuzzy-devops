@@ -1,0 +1,33 @@
+diff id:000029,src:000001,op:havoc,rep:16,+cov -> id:000030,src:000001,op:havoc,rep:128
+Src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_ancillary_info()
+  New 'function' coverage: emit_mandatory_arg_note()
+  New 'line' coverage: 585
+  New 'line' coverage: 587
+  New 'line' coverage: 590
+  New 'line' coverage: 612
+  New 'line' coverage: 614
+  New 'line' coverage: 624
+  New 'line' coverage: 625
+  New 'line' coverage: 627
+  New 'line' coverage: 628
+  New 'line' coverage: 630
+  New 'line' coverage: 633
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 644
+  New 'line' coverage: 647
+  New 'line' coverage: 649
+  New 'line' coverage: 651
+Src file: /root/coreutils/src/touch.c
+  New 'line' coverage: 212
+  New 'line' coverage: 213
+  New 'line' coverage: 223
+  New 'line' coverage: 225
+  New 'line' coverage: 231
+  New 'line' coverage: 237
+  New 'line' coverage: 244
+  New 'line' coverage: 245
+  New 'line' coverage: 246
+  New 'line' coverage: 250
+  New 'line' coverage: 322

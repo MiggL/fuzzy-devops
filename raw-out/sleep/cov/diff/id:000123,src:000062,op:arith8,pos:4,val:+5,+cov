@@ -1,0 +1,3 @@
+diff id:000122,src:000016,op:havoc,rep:128 -> id:000123,src:000062,op:arith8,pos:4,val:+5,+cov
+Src file: /root/coreutils/src/sleep.c
+  New 'line' coverage: 80

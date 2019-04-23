@@ -1,0 +1,6 @@
+diff id:000126,src:000018,op:havoc,rep:16,+cov -> id:000127,src:000041,op:arith8,pos:4,val:+10
+Src file: /root/coreutils/src/mktemp.c
+  New 'line' coverage: 267
+  New 'line' coverage: 268
+  New 'line' coverage: 270
+  New 'line' coverage: 275

@@ -1,0 +1,12 @@
+diff id:000320,src:000136,op:arith8,pos:7,val:+28,+cov -> id:000321,src:000139,op:flip1,pos:4
+Src file: /root/coreutils/src/date.c
+  New 'line' coverage: 286
+  New 'line' coverage: 287
+  New 'line' coverage: 298
+  New 'line' coverage: 299
+  New 'line' coverage: 300
+  New 'line' coverage: 303
+  New 'line' coverage: 304
+  New 'line' coverage: 323
+  New 'line' coverage: 326
+  New 'line' coverage: 328

@@ -1,0 +1,4 @@
+diff id:000128,src:000035,op:havoc,rep:8,+cov -> id:000129,src:000035,op:havoc,rep:4
+Src file: /root/coreutils/src/mv.c
+  New 'line' coverage: 463
+  New 'line' coverage: 464

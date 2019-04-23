@@ -1,0 +1,3 @@
+diff id:000020,src:000003,op:int16,pos:4,val:+0 -> id:000021,src:000003,op:int16,pos:7,val:+512,+cov
+Src file: /root/coreutils/src/date.c
+  New 'line' coverage: 425

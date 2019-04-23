@@ -1,0 +1,41 @@
+diff (init) -> id:000000,orig:sample1.in
+New src file: /root/coreutils/src/sleep.c
+  New 'function' coverage: main()
+  New 'function' coverage: usage()
+  New 'line' coverage: 100
+  New 'line' coverage: 102
+  New 'line' coverage: 103
+  New 'line' coverage: 106
+  New 'line' coverage: 107
+  New 'line' coverage: 108
+  New 'line' coverage: 109
+  New 'line' coverage: 111
+  New 'line' coverage: 113
+  New 'line' coverage: 115
+  New 'line' coverage: 118
+  New 'line' coverage: 120
+  New 'line' coverage: 121
+  New 'line' coverage: 38
+  New 'line' coverage: 40
+  New 'line' coverage: 41
+  New 'line' coverage: 59
+  New 'line' coverage: 98
+New src file: /root/coreutils/src/system.h
+  New 'function' coverage: emit_try_help()
+  New 'line' coverage: 654
+  New 'line' coverage: 656
+  New 'line' coverage: 657
+New src file: /root/afl/experimental/argv_fuzzing/argv-fuzz-inl.h
+  New 'function' coverage: afl_init_argv()
+  New 'line' coverage: 50
+  New 'line' coverage: 55
+  New 'line' coverage: 56
+  New 'line' coverage: 58
+  New 'line' coverage: 60
+  New 'line' coverage: 62
+  New 'line' coverage: 63
+  New 'line' coverage: 64
+  New 'line' coverage: 66
+  New 'line' coverage: 67
+  New 'line' coverage: 71
+  New 'line' coverage: 73

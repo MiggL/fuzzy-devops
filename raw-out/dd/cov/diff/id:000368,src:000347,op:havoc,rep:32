@@ -1,0 +1,10 @@
+diff id:000367,src:000347,op:havoc,rep:8 -> id:000368,src:000347,op:havoc,rep:32
+Src file: /root/coreutils/src/dd.c
+  New 'function' coverage: quit()
+  New 'line' coverage: 1780
+  New 'line' coverage: 1789
+  New 'line' coverage: 1792
+  New 'line' coverage: 1793
+  New 'line' coverage: 1798
+  New 'line' coverage: 989
+  New 'line' coverage: 992

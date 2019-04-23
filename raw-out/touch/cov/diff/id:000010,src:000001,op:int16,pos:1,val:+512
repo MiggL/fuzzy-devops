@@ -1,0 +1,4 @@
+diff id:000009,src:000001,op:int16,pos:0,val:be:+512,+cov -> id:000010,src:000001,op:int16,pos:1,val:+512
+Src file: /root/coreutils/src/touch.c
+  New 'line' coverage: 308
+  New 'line' coverage: 310

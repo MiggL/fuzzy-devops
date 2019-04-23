@@ -1,0 +1,5 @@
+diff id:000007,src:000001,op:flip1,pos:3,+cov -> id:000008,src:000001,op:flip1,pos:6,+cov
+Src file: /root/coreutils/src/dd.c
+  New 'line' coverage: 1313
+  New 'line' coverage: 1317
+  New 'line' coverage: 1322

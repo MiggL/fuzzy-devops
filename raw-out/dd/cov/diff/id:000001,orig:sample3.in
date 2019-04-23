@@ -1,0 +1,5 @@
+diff id:000000,orig:sample1.in -> id:000001,orig:sample3.in
+Src file: /root/coreutils/src/dd.c
+  New 'line' coverage: 1419
+  New 'line' coverage: 1420
+  New 'line' coverage: 1421

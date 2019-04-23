@@ -1,0 +1,7 @@
+diff id:000159,src:000033,op:havoc,rep:8 -> id:000160,src:000033,op:havoc,rep:4
+Src file: /root/coreutils/src/date.c
+  New 'line' coverage: 394
+  New 'line' coverage: 395
+  New 'line' coverage: 437
+  New 'line' coverage: 438
+  New 'line' coverage: 439

@@ -1,0 +1,16 @@
+diff id:000002,orig:sample4.in -> id:000003,orig:sample5.in
+Src file: /root/coreutils/src/touch.c
+  New 'function' coverage: get_reldate()
+  New 'line' coverage: 111
+  New 'line' coverage: 114
+  New 'line' coverage: 115
+  New 'line' coverage: 179
+  New 'line' coverage: 280
+  New 'line' coverage: 281
+  New 'line' coverage: 284
+  New 'line' coverage: 285
+  New 'line' coverage: 288
+  New 'line' coverage: 289
+  New 'line' coverage: 365
+  New 'line' coverage: 366
+  New 'line' coverage: 425

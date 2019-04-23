@@ -1,0 +1,3 @@
+diff id:000222,src:000073,op:ext_UO,pos:2,+cov -> id:000223,src:000091,op:arith8,pos:8,val:+6
+Src file: /root/coreutils/src/dd.c
+  New 'line' coverage: 1399

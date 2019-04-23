@@ -1,0 +1,8 @@
+diff id:000162,src:000097,op:havoc,rep:8 -> id:000163,src:000104,op:flip1,pos:5
+Src file: /root/coreutils/src/copy.c
+  New 'function' coverage: dest_info_init()
+  New 'line' coverage: 1692
+  New 'line' coverage: 1695
+  New 'line' coverage: 1700
+Src file: /root/coreutils/src/mv.c
+  New 'line' coverage: 502

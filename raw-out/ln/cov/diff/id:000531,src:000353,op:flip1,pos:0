@@ -1,0 +1,3 @@
+diff id:000530,src:000334,op:ext_UI,pos:52 -> id:000531,src:000353,op:flip1,pos:0
+Src file: /root/coreutils/src/relpath.c
+  New 'line' coverage: 102

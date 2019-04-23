@@ -1,0 +1,8 @@
+diff id:000004,src:000001,op:flip1,pos:6,+cov -> id:000005,src:000001,op:flip1,pos:10
+Src file: /root/coreutils/src/ln.c
+  New 'line' coverage: 572
+  New 'line' coverage: 576
+  New 'line' coverage: 578
+  New 'line' coverage: 579
+  New 'line' coverage: 580
+  New 'line' coverage: 584
