@@ -1,0 +1,4 @@
+diff id:000021,src:000000,op:int32,pos:1,val:-32768,+cov -> id:000022,src:000000,op:havoc,rep:64
+Src file: /root/coreutils/src/ls.c
+  New 'line' coverage: 1813
+  New 'line' coverage: 2752

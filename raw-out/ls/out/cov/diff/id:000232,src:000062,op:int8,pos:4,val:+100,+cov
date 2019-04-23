@@ -1,0 +1,5 @@
+diff id:000231,src:000062,op:arith8,pos:4,val:-10,+cov -> id:000232,src:000062,op:int8,pos:4,val:+100,+cov
+Src file: /root/coreutils/src/ls.c
+  New 'function' coverage: xstrcoll_df_name()
+  New 'line' coverage: 1877
+  New 'line' coverage: 1878

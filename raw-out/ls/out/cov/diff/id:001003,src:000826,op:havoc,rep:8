@@ -1,0 +1,3 @@
+diff id:001002,src:000826,op:havoc,rep:2,+cov -> id:001003,src:000826,op:havoc,rep:8
+Src file: /root/coreutils/src/ls.c
+  New 'function' coverage: rev_xstrcoll_df_atime()

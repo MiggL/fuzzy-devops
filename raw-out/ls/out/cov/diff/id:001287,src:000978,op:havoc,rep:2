@@ -1,0 +1,6 @@
+diff id:001286,src:000975,op:havoc,rep:4 -> id:001287,src:000978,op:havoc,rep:2
+Src file: /root/coreutils/src/ls.c
+  New 'function' coverage: rev_xstrcoll_df_extension()
+  New 'function' coverage: rev_xstrcoll_df_name()
+  New 'function' coverage: rev_xstrcoll_df_size()
+  New 'function' coverage: xstrcoll_df_extension()

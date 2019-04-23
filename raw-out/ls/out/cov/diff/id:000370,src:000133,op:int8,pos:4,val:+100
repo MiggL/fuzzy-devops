@@ -1,0 +1,10 @@
+diff id:000369,src:000129,op:havoc,rep:2 -> id:000370,src:000133,op:int8,pos:4,val:+100
+Src file: /root/coreutils/src/ls.c
+  New 'function' coverage: rev_xstrcoll_atime()
+  New 'function' coverage: rev_xstrcoll_ctime()
+  New 'function' coverage: rev_xstrcoll_extension()
+  New 'function' coverage: rev_xstrcoll_mtime()
+  New 'function' coverage: rev_xstrcoll_size()
+  New 'function' coverage: rev_xstrcoll_version()
+  New 'line' coverage: 3520
+  New 'line' coverage: 3521

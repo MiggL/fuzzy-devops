@@ -1,0 +1,24 @@
+diff id:000134,src:000007,op:flip4,pos:3,+cov -> id:000135,src:000007,op:flip4,pos:4,+cov
+Src file: /root/coreutils/src/ls.c
+  New 'function' coverage: print_horizontal()
+  New 'line' coverage: 3664
+  New 'line' coverage: 3667
+  New 'line' coverage: 4566
+  New 'line' coverage: 4569
+  New 'line' coverage: 4570
+  New 'line' coverage: 4571
+  New 'line' coverage: 4572
+  New 'line' coverage: 4573
+  New 'line' coverage: 4574
+  New 'line' coverage: 4577
+  New 'line' coverage: 4580
+  New 'line' coverage: 4582
+  New 'line' coverage: 4584
+  New 'line' coverage: 4591
+  New 'line' coverage: 4592
+  New 'line' coverage: 4595
+  New 'line' coverage: 4596
+  New 'line' coverage: 4598
+  New 'line' coverage: 4599
+  New 'line' coverage: 4601
+  New 'line' coverage: 4602

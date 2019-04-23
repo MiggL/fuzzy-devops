@@ -1,0 +1,5 @@
+diff id:000865,src:000698,op:havoc,rep:2 -> id:000866,src:000698,op:havoc,rep:4
+Src file: /root/coreutils/src/ls.c
+  New 'line' coverage: 1950
+  New 'line' coverage: 1952
+  New 'line' coverage: 1953

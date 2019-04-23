@@ -1,0 +1,3 @@
+diff id:001782,src:001551,op:ext_AO,pos:13 -> id:001783,src:001551,op:ext_AO,pos:15
+Src file: /root/coreutils/src/ls.c
+  New 'line' coverage: 1885

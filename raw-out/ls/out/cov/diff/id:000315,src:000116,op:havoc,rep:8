@@ -1,0 +1,19 @@
+diff id:000314,src:000116,op:havoc,rep:8 -> id:000315,src:000116,op:havoc,rep:8
+Src file: /root/coreutils/src/ls.c
+  New 'line' coverage: 2885
+  New 'line' coverage: 3884
+  New 'line' coverage: 3885
+  New 'line' coverage: 3890
+  New 'line' coverage: 3891
+  New 'line' coverage: 3901
+  New 'line' coverage: 3905
+  New 'line' coverage: 3911
+  New 'line' coverage: 3912
+  New 'line' coverage: 3914
+  New 'line' coverage: 3917
+  New 'line' coverage: 3919
+  New 'line' coverage: 3920
+  New 'line' coverage: 3921
+  New 'line' coverage: 3952
+Src file: /root/coreutils/lib/selinux/selinux.h
+  New 'line' coverage: 91

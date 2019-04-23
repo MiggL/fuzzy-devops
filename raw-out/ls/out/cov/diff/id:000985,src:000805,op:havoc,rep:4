@@ -1,0 +1,4 @@
+diff id:000984,src:000805,op:havoc,rep:8 -> id:000985,src:000805,op:havoc,rep:4
+Src file: /root/coreutils/src/ls.c
+  New 'function' coverage: xstrcoll_df_size()
+  New 'line' coverage: 3658

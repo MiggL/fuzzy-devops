@@ -1,0 +1,4 @@
+diff id:000003,orig:in4 -> id:000004,orig:in5
+Src file: /root/coreutils/src/ls.c
+  New 'line' coverage: 1743
+  New 'line' coverage: 1744
