@@ -1,0 +1,8 @@
+diff id:000066,src:000002,op:havoc,rep:128 -> id:000067,src:000002,op:havoc,rep:32
+Src file: /root/coreutils/src/printf.c
+  New 'function' coverage: vstrtold()
+  New 'line' coverage: 192
+  New 'line' coverage: 428
+  New 'line' coverage: 429
+  New 'line' coverage: 431
+  New 'line' coverage: 432

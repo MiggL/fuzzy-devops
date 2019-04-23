@@ -1,0 +1,5 @@
+diff id:000214,src:000073,op:arith8,pos:5,val:-6,+cov -> id:000215,src:000073,op:arith8,pos:5,val:-14,+cov
+Src file: /root/coreutils/src/printf.c
+  New 'line' coverage: 521
+  New 'line' coverage: 523
+  New 'line' coverage: 524

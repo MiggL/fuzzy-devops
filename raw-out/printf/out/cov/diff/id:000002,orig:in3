@@ -1,0 +1,8 @@
+diff id:000001,orig:in2 -> id:000002,orig:in3
+Src file: /root/coreutils/src/printf.c
+  New 'function' coverage: print_esc_char()
+  New 'line' coverage: 197
+  New 'line' coverage: 199
+  New 'line' coverage: 229
+  New 'line' coverage: 232
+  New 'line' coverage: 270

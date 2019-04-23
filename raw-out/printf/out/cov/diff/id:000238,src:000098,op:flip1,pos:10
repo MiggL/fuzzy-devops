@@ -1,0 +1,13 @@
+diff id:000237,src:000080,op:flip4,pos:19,+cov -> id:000238,src:000098,op:flip1,pos:10
+Src file: /root/coreutils/src/printf.c
+  New 'function' coverage: print_esc_string()
+  New 'line' coverage: 150
+  New 'line' coverage: 151
+  New 'line' coverage: 314
+  New 'line' coverage: 316
+  New 'line' coverage: 317
+  New 'line' coverage: 320
+  New 'line' coverage: 321
+  New 'line' coverage: 510
+  New 'line' coverage: 511
+  New 'line' coverage: 512
